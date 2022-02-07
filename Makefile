@@ -1,4 +1,4 @@
-.PHONY: build test
+.PHONY: build test all clean
 
 all: test
 	echo "Testing..."
@@ -8,4 +8,7 @@ test:
 
 build:
 	swift build
+
+clean:
+	rm -rf .build
 
