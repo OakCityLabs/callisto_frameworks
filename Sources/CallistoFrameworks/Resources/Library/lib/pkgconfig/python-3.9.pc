@@ -1,0 +1,13 @@
+# See: man pkg-config
+prefix=/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Python
+Description: Build a C extension for Python
+Requires:
+Version: 3.9
+Libs.private: -ldl  -lutil -lutil  -framework CoreFoundation
+Libs:
+Cflags: -I${includedir}/python3.9

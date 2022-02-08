@@ -1,0 +1,37 @@
+#!/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
+
+import uvicorn
+import sys
+import argparse
+import os
+
+
+def get_args():
+    desc = 'Start Jupyter D1 server'
+
+    parser = argparse.ArgumentParser(description=desc)
+    parser.add_argument('--port', type=int,
+                        dest='port', default=5000,
+                        help='Port to run jupyter d1 server on')
+    parser.add_argument('--secret_token', type=str,
+                        dest='secret_token', required=True,
+                        help="Secret token used to log in to server")
+    parser.add_argument('--root_dir', type=str,
+                        dest='root_dir', required=False, default=None,
+                        help="Root dir to serve files from")
+    return parser.parse_args()
+
+
+def main():
+    args = get_args()
+    os.environ["CALLISTO_ENV"] = "local"
+    os.environ["CALLISTO_OAUTH_TOKEN_URL"] = "/login/access-token"
+    os.environ["CALLISTO_LOGIN_TOKEN"] = args.secret_token
+    if args.root_dir is not None:
+        os.environ["CALLISTO_ROOT_DIR"] = args.root_dir
+    uvicorn.run("jupyter_d1:app", host="127.0.0.1", port=args.port,
+                log_level="debug")
+
+
+if __name__ == "__main__":
+    main()
