@@ -1,6 +1,7 @@
 #!/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
 
 import uvicorn
+from uvicorn.config import LOGGING_CONFIG
 import sys
 import argparse
 import os
@@ -19,6 +20,9 @@ def get_args():
     parser.add_argument('--root_dir', type=str,
                         dest='root_dir', required=False, default=None,
                         help="Root dir to serve files from")
+    parser.add_argument('--log_file', type=str,
+                        dest='log_file', required=False, default=None,
+                        help="File to log to")
     return parser.parse_args()
 
 
@@ -29,8 +33,23 @@ def main():
     os.environ["CALLISTO_LOGIN_TOKEN"] = args.secret_token
     if args.root_dir is not None:
         os.environ["CALLISTO_ROOT_DIR"] = args.root_dir
+    log_config = None
+    if args.log_file is not None:
+        log_config = LOGGING_CONFIG
+        log_config["handlers"] = {
+            "default": {
+                "formatter": "default",
+                "class": "logging.FileHandler",
+                "filename": args.log_file,
+            },
+            "access": {
+                "formatter": "access",
+                "class": "logging.FileHandler",
+                "filename": args.log_file,
+            },
+        }
     uvicorn.run("jupyter_d1:app", host="127.0.0.1", port=args.port,
-                log_level="debug")
+                log_level="debug", log_config=log_config)
 
 
 if __name__ == "__main__":
