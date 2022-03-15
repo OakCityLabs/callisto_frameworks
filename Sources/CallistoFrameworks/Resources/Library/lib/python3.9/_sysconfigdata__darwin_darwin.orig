@@ -15,20 +15,20 @@ build_time_vars = {'ABIFLAGS': '',
  'BLDLIBRARY': 'libpython3.9.a',
  'BLDSHARED': 'clang -bundle -undefined dynamic_lookup -arch arm64 -target '
               'arm64-apple-macos11.0 -isysroot '
-              '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+              '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
               '-L/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/lib '
               '-lz '
               '-F/Users/jayl/git/XCFrameworkBuilder/xcframeworks/openssl.xcframework/macos-arm64_x86_64',
  'BUILDEXE': '.exe',
  'BUILDPYTHON': 'python.exe',
- 'BUILD_GNU_TYPE': 'arm-apple-darwin21.3.0',
+ 'BUILD_GNU_TYPE': 'arm-apple-darwin21.4.0',
  'BYTESTR_DEPS': '\\',
  'CC': 'clang',
  'CCSHARED': '',
  'CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -g '
            '-fwrapv -O3 -Wall -arch arm64 -target arm64-apple-macos11.0  '
            '-isysroot '
-           '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+           '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
            '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
            '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
            '-DOPENSSL_NO_TLS1_2_METHOD',
@@ -38,7 +38,7 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFIGFILES': 'configure configure.ac acconfig.h pyconfig.h.in '
                 'Makefile.pre.in',
  'CONFIGURE_CFLAGS': '-arch arm64 -target arm64-apple-macos11.0  -isysroot '
-                     '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                     '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                      '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                      '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                      '-DOPENSSL_NO_TLS1_2_METHOD',
@@ -49,12 +49,12 @@ build_time_vars = {'ABIFLAGS': '',
                             '-Werror=implicit-function-declaration '
                             '-fvisibility=hidden',
  'CONFIGURE_CPPFLAGS': '-arch arm64 -target arm64-apple-macos11.0  -isysroot '
-                       '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                       '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                        '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                        '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                        '-DOPENSSL_NO_TLS1_2_METHOD',
  'CONFIGURE_LDFLAGS': '-arch arm64 -target arm64-apple-macos11.0 -isysroot '
-                      '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                      '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                       '-L/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/lib '
                       '-lz '
                       '-F/Users/jayl/git/XCFrameworkBuilder/xcframeworks/openssl.xcframework/macos-arm64_x86_64',
@@ -70,18 +70,18 @@ build_time_vars = {'ABIFLAGS': '',
                 "'ac_cv_func_forkpty=no' 'ac_cv_func_openpty=no' "
                 "'ac_cv_func_clock_settime=n' 'CC=clang' 'CFLAGS=-arch arm64 "
                 '-target arm64-apple-macos11.0  -isysroot '
-                '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                 '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                 '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                 "-DOPENSSL_NO_TLS1_2_METHOD' 'LDFLAGS=-arch arm64 -target "
                 'arm64-apple-macos11.0 -isysroot '
-                '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                 '-L/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/lib '
                 '-lz '
                 "-F/Users/jayl/git/XCFrameworkBuilder/xcframeworks/openssl.xcframework/macos-arm64_x86_64' "
                 "'CPPFLAGS=-arch arm64 -target arm64-apple-macos11.0  "
                 '-isysroot '
-                '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                 '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                 '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                 "-DOPENSSL_NO_TLS1_2_METHOD'",
@@ -94,7 +94,7 @@ build_time_vars = {'ABIFLAGS': '',
                             'report"',
  'CPPFLAGS': '-I. -I./Include -arch arm64 -target arm64-apple-macos11.0  '
              '-isysroot '
-             '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+             '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
              '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
              '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
              '-DOPENSSL_NO_TLS1_2_METHOD',
@@ -566,7 +566,7 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE_X509_VERIFY_PARAM_SET1_HOST': 1,
  'HAVE_ZLIB_COPY': 1,
  'HAVE__GETPTY': 0,
- 'HOST_GNU_TYPE': 'arm-apple-darwin21.3.0',
+ 'HOST_GNU_TYPE': 'arm-apple-darwin21.4.0',
  'INCLDIRSTOMAKE': '/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/include '
                    '/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/include '
                    '/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/include/python3.9 '
@@ -583,7 +583,7 @@ build_time_vars = {'ABIFLAGS': '',
  'IO_OBJS': '\\',
  'LDCXXSHARED': 'clang++ -bundle -undefined dynamic_lookup',
  'LDFLAGS': '-arch arm64 -target arm64-apple-macos11.0 -isysroot '
-            '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+            '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
             '-L/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/lib '
             '-lz '
             '-F/Users/jayl/git/XCFrameworkBuilder/xcframeworks/openssl.xcframework/macos-arm64_x86_64',
@@ -592,7 +592,7 @@ build_time_vars = {'ABIFLAGS': '',
  'LDLIBRARYDIR': '',
  'LDSHARED': 'clang -bundle -undefined dynamic_lookup -arch arm64 -target '
              'arm64-apple-macos11.0 -isysroot '
-             '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+             '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
              '-L/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/lib '
              '-lz '
              '-F/Users/jayl/git/XCFrameworkBuilder/xcframeworks/openssl.xcframework/macos-arm64_x86_64',
@@ -625,7 +625,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MACHDEP': 'darwin',
  'MACHDEP_OBJS': '',
  'MACHDESTLIB': '/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/lib/python3.9',
- 'MACOSX_DEPLOYMENT_TARGET': '12.2',
+ 'MACOSX_DEPLOYMENT_TARGET': '12.3',
  'MAINCC': 'clang',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 0,
@@ -727,7 +727,7 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Wunreachable-code -DNDEBUG -g -fwrapv -O3 -Wall '
                              '-arch arm64 -target arm64-apple-macos11.0  '
                              '-isysroot '
-                             '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                             '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                              '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                              '-DOPENSSL_NO_TLS1_METHOD '
                              '-DOPENSSL_NO_TLS1_1_METHOD '
@@ -739,7 +739,7 @@ build_time_vars = {'ABIFLAGS': '',
                              '-fvisibility=hidden  -I./Include/internal -I. '
                              '-I./Include -arch arm64 -target '
                              'arm64-apple-macos11.0  -isysroot '
-                             '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                             '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                              '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                              '-DOPENSSL_NO_TLS1_METHOD '
                              '-DOPENSSL_NO_TLS1_1_METHOD '
@@ -748,7 +748,7 @@ build_time_vars = {'ABIFLAGS': '',
  'PY_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG '
               '-g -fwrapv -O3 -Wall -arch arm64 -target arm64-apple-macos11.0  '
               '-isysroot '
-              '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+              '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
               '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
               '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
               '-DOPENSSL_NO_TLS1_2_METHOD',
@@ -761,7 +761,7 @@ build_time_vars = {'ABIFLAGS': '',
  'PY_CORE_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code '
                    '-DNDEBUG -g -fwrapv -O3 -Wall -arch arm64 -target '
                    'arm64-apple-macos11.0  -isysroot '
-                   '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                   '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                    '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                    '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                    '-DOPENSSL_NO_TLS1_2_METHOD -std=c99 -Wextra '
@@ -770,24 +770,24 @@ build_time_vars = {'ABIFLAGS': '',
                    '-Werror=implicit-function-declaration -fvisibility=hidden  '
                    '-I./Include/internal -I. -I./Include -arch arm64 -target '
                    'arm64-apple-macos11.0  -isysroot '
-                   '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                   '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                    '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                    '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                    '-DOPENSSL_NO_TLS1_2_METHOD -DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': '-arch arm64 -target arm64-apple-macos11.0 -isysroot '
-                    '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                    '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                     '-L/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/lib '
                     '-lz '
                     '-F/Users/jayl/git/XCFrameworkBuilder/xcframeworks/openssl.xcframework/macos-arm64_x86_64',
  'PY_CPPFLAGS': '-I. -I./Include -arch arm64 -target arm64-apple-macos11.0  '
                 '-isysroot '
-                '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                 '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                 '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                 '-DOPENSSL_NO_TLS1_2_METHOD',
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '-arch arm64 -target arm64-apple-macos11.0 -isysroot '
-               '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+               '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                '-L/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/lib '
                '-lz '
                '-F/Users/jayl/git/XCFrameworkBuilder/xcframeworks/openssl.xcframework/macos-arm64_x86_64',
@@ -797,7 +797,7 @@ build_time_vars = {'ABIFLAGS': '',
  'PY_STDMODULE_CFLAGS': '-Wno-unused-result -Wsign-compare -Wunreachable-code '
                         '-DNDEBUG -g -fwrapv -O3 -Wall -arch arm64 -target '
                         'arm64-apple-macos11.0  -isysroot '
-                        '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                        '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                         '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                         '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                         '-DOPENSSL_NO_TLS1_2_METHOD -std=c99 -Wextra '
@@ -807,7 +807,7 @@ build_time_vars = {'ABIFLAGS': '',
                         '-fvisibility=hidden  -I./Include/internal -I. '
                         '-I./Include -arch arm64 -target '
                         'arm64-apple-macos11.0  -isysroot '
-                        '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  '
+                        '/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  '
                         '-I/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/include '
                         '-DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD '
                         '-DOPENSSL_NO_TLS1_2_METHOD',
