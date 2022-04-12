@@ -77,6 +77,12 @@ def open(url, new=0, autoraise=True):
     - 2: a new browser page ("tab").
     If possible, autoraise raises the window (the default) or not.
     """
+    
+    # iOS 
+    if (sys.platform == 'darwin'):
+        command = 'openurl %s' % url
+        rc = os.system(command)
+        return rc
     if _tryorder is None:
         with _lock:
             if _tryorder is None:
@@ -672,7 +678,7 @@ if sys.platform == 'darwin':
 
         def open(self, url, new=0, autoraise=True):
             # iOS: either iPhone or iPad (works with both iPhone and Simulator)
-            if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+            if (sys.platform == 'darwin'):
                 command = 'openurl "%s"' % url.replace('"', '%22')
                 rc = os.system(command)
                 return rc
