@@ -449,7 +449,7 @@ def spawnv_passfds(path, args, passfds):
     passfds = tuple(sorted(map(int, passfds)))
     errpipe_read, errpipe_write = os.pipe()
     # iOS: just return fork_exec, don't close the threads.
-    if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+    if (sys.platform == 'darwin'):
         return _posixsubprocess.fork_exec(
             args, [os.fsencode(path)], True, passfds, None, None,
             -1, -1, -1, -1, -1, -1, errpipe_read, errpipe_write,

@@ -105,7 +105,7 @@ class UnixCCompiler(CCompiler):
                 self.mkpath(os.path.dirname(output_file))
             try:
                 # iOS: since clang is not available, we send a nicer error message:
-                if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+                if (sys.platform == 'darwin'):
                     raise DistutilsExecError("There are no preprocessors available on iOS, sorry. Command was: ", pp_args)                
                 #        
                 self.spawn(pp_args)
@@ -119,7 +119,7 @@ class UnixCCompiler(CCompiler):
                                                     cc_args + extra_postargs)
         try:
             # iOS: since clang is not available, we send a nicer error message:
-            if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+            if (sys.platform == 'darwin'):
                 raise DistutilsExecError("There are no compilers available on iOS, sorry. Command was: ", cc_args) 
             #
             self.spawn(compiler_so + cc_args + [src, '-o', obj] +
@@ -148,7 +148,7 @@ class UnixCCompiler(CCompiler):
             if self.ranlib:
                 try:
                     # iOS: since clang is not available, we send a nicer error message:
-                    if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+                    if (sys.platform == 'darwin'):
                         raise DistutilsExecError("There are no static linkers available on iOS, sorry.")
                     #
                     self.spawn(self.ranlib + [output_filename])
@@ -214,7 +214,7 @@ class UnixCCompiler(CCompiler):
                     linker = _osx_support.compiler_fixup(linker, ld_args)
 
                 # iOS: since clang is not available, we send a nicer error message:
-                if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+                if (sys.platform == 'darwin'):
                     raise DistutilsExecError("There are no linkers available on iOS, sorry.")
 
                 self.spawn(linker + ld_args)

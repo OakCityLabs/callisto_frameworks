@@ -18,7 +18,7 @@ from ..utils import (
 )
 from ..transutils import _
 
-
+# iOS, TODO: check if environment list is correct wwith 7.0
 def get_frontend_exporters():
     from nbconvert.exporters.base import get_export_names, get_exporter
 

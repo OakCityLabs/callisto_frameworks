@@ -1047,7 +1047,7 @@ class Popen(object):
             # We didn't get to successfully create a child process.
             return
         # iOS: we're done
-        if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+        if (sys.platform == 'darwin'):
             return;
         if self.returncode is None:
             # Not reading subprocess exit status creates a zombie process which
@@ -1767,7 +1767,7 @@ class Popen(object):
                     self._child_created = True
                     # iOS: return after fork(). It means we don't close the pipes.
                     # (because we didn't fork)
-                    if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+                    if (sys.platform == 'darwin'):
                         return
                 finally:
                     # be sure the FD is closed no matter what
@@ -1789,7 +1789,7 @@ class Popen(object):
                 # be sure the FD is closed no matter what
                 os.close(errpipe_read)
                 # iOS: return from here
-                if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+                if (sys.platform == 'darwin'):
                     return 
 
             if errpipe_data:

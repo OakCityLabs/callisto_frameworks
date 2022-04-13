@@ -619,7 +619,7 @@ def _syscmd_file(target, default=''):
         # XXX Others too ?
         return default
     # iOS: no guarantee that 'file' is installed
-    if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+    if (sys.platform == 'darwin'):
         return default
 
     import subprocess

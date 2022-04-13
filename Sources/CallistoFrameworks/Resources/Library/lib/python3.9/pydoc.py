@@ -1596,7 +1596,7 @@ def pipepager(text, cmd):
     import subprocess
     # iOS: don't use shell (sh -c) for the pager
     useShell = True
-    if (sys.platform == 'darwin' and os.uname().machine.startswith('iP')):
+    if (sys.platform == 'darwin'):
         useShell = False
     proc = subprocess.Popen(cmd, shell=useShell, stdin=subprocess.PIPE)
     try:
