@@ -1,40 +1,11 @@
 // swift-tools-version:5.5
 
-#if targetEnvironment(macCatalyst)
-
 import PackageDescription
 
 let package = Package(
     name: "CallistoFrameworks",
     platforms: [
-      .macCatalyst(.v14)
-    ],
-    products: [
-        .library(
-            name: "CallistoFrameworks",
-            targets: [
-                "CallistoFrameworks",
-            ]
-        ),
-    ],
-    dependencies: [],
-    targets: [
-        .target(
-            name: "CallistoFrameworks",
-            dependencies: [],
-            resources: []
-        )
-    ]
-)
-
-#else
-
-import PackageDescription
-
-let package = Package(
-    name: "CallistoFrameworks",
-    platforms: [
-        .iOS(.v14), .macCatalyst(.v14)
+        .iOS(.v14)
     ],
     products: [
         .library(
@@ -1682,4 +1653,3 @@ let package = Package(
     ]
 )
 
-#endif
