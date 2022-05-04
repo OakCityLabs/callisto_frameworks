@@ -1,4 +1,4 @@
-#!/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
+#!/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
 
 # $Id: rst2odt.py 5839 2009-01-07 19:09:28Z dkuhlman $
 # Author: Dave Kuhlman <dkuhlman@rexx.com>

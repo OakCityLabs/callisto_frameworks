@@ -1,4 +1,4 @@
-#!/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
+#!/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
 # -*- coding: utf8 -*-
 # :Copyright: © 2015 Günter Milde.
 # :License: Released under the terms of the `2-Clause BSD license`_, in short:

@@ -1,4 +1,4 @@
-#!/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
+#!/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
 
 # $Id: rst2latex.py 5905 2009-04-16 12:04:49Z milde $
 # Author: David Goodger <goodger@python.org>

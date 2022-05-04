@@ -1,4 +1,4 @@
-#!/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
+#!/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
 
 # $Id: rst2s5.py 4564 2006-05-21 20:44:42Z wiemann $
 # Author: Chris Liechti <cliechti@gmx.net>

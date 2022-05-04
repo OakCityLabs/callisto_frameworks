@@ -1,4 +1,4 @@
-#!/Users/jayl/git/XCFrameworkBuilder/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
+#!/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
 
 # $Id: rst2xetex.py 7847 2015-03-17 17:30:47Z milde $
 # Author: Guenter Milde

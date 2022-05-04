@@ -12,8 +12,7 @@ from fontTools.ttLib.tables.otBase import (
 from fontTools.ttLib.tables import otBase
 from fontTools.feaLib.ast import STATNameStatement
 from fontTools.otlLib.optimize.gpos import (
-    GPOS_COMPACT_MODE_DEFAULT,
-    GPOS_COMPACT_MODE_ENV_KEY,
+    _compression_level_from_env,
     compact_lookup,
 )
 from fontTools.otlLib.error import OpenTypeLibError
@@ -1414,10 +1413,14 @@ class PairPosBuilder(LookupBuilder):
         # Compact the lookup
         # This is a good moment to do it because the compaction should create
         # smaller subtables, which may prevent overflows from happening.
-        mode = os.environ.get(GPOS_COMPACT_MODE_ENV_KEY, GPOS_COMPACT_MODE_DEFAULT)
-        if mode and mode != "0":
+        # Keep reading the value from the ENV until ufo2ft switches to the config system
+        level = self.font.cfg.get(
+            "fontTools.otlLib.optimize.gpos:COMPRESSION_LEVEL",
+            default=_compression_level_from_env(),
+        )
+        if level != 0:
             log.info("Compacting GPOS...")
-            compact_lookup(self.font, mode, lookup)
+            compact_lookup(self.font, level, lookup)
 
         return lookup
 

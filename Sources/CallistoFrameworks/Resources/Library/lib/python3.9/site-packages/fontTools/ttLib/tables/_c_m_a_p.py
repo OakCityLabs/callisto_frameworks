@@ -91,6 +91,11 @@ class table__c_m_a_p(DefaultTable.DefaultTable):
 				(0, 1),  # Unicode 1.1
 				(0, 0)   # Unicode 1.0
 
+		This particular order matches what HarfBuzz uses to choose what
+		subtable to use by default. This order prefers the largest-repertoire
+		subtable, and among those, prefers the Windows-platform over the
+		Unicode-platform as the former has wider support.
+
 		This order can be customized via the ``cmapPreferences`` argument.
 		"""
 		for platformID, platEncID in cmapPreferences:
@@ -172,13 +177,11 @@ class table__c_m_a_p(DefaultTable.DefaultTable):
 		seen = {}  # Some tables are the same object reference. Don't compile them twice.
 		done = {}  # Some tables are different objects, but compile to the same data chunk
 		for table in self.tables:
-			try:
-				offset = seen[id(table.cmap)]
-			except KeyError:
+			offset = seen.get(id(table.cmap))
+			if offset is None:
 				chunk = table.compile(ttFont)
-				if chunk in done:
-					offset = done[chunk]
-				else:
+				offset = done.get(chunk)
+				if offset is None:
 					offset = seen[id(table.cmap)] = done[chunk] = totalOffset + len(tableData)
 					tableData = tableData + chunk
 			data = data + struct.pack(">HHl", table.platformID, table.platEncID, offset)
