@@ -56,7 +56,9 @@ define([
         '; :': 186, '= +': 187, '- _': 189, 'minus':189
     };
     
-    var browser = utils.browser[0];
+    // iOS: TODO: force the browser to be 'Safari' since automatic detection fails.
+    // See also line 24674 in main.min.js / utils.js line 649
+    var browser = 'Safari' // utils.browser[0];
     var platform = utils.platform;
     
     if (browser === 'Firefox' || browser === 'Opera' || browser === 'Netscape') {
@@ -534,7 +536,19 @@ define([
          * in any case returning false stop event propagation
          **/
 
-
+		// iOS: convert external keyboard events (arrows / escape key (if present)):
+		if (event.key === 'UIKeyInputUpArrow') { 
+			event.which = keycodes['up']
+		} else if (event.key === 'UIKeyInputDownArrow') {
+			event.which = keycodes['down']
+		}  else if  (event.key === 'UIKeyInputRightArrow') {
+			event.which = keycodes['right']
+		} else if  (event.key === 'UIKeyInputLeftArrow') {
+			event.which = keycodes['left']
+		} else if  (event.key === 'UIKeyInputEscape') {
+			event.which = keycodes['esc']
+		} 
+		//
         this.clearsoon();
         if(only_modifier_event(event)){
             return true;

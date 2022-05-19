@@ -646,6 +646,8 @@ define([
     
     // https://stackoverflow.com/questions/2400935/browser-detection-in-javascript
     var browser = (function() {
+    	// iOS: TODO: this returns "Netscape", and we want it to return "WebKit"
+    	// (check if still issue on iOS 14)
         if (typeof navigator === 'undefined') {
             // navigator undefined in node
             return 'None';
