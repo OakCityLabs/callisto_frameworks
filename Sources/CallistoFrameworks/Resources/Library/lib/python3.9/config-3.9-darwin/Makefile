@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -g -fwrapv -O3 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare -Wunreachable-code
 BASECPPFLAGS=	
-CONFIGURE_CFLAGS=	-arch arm64 -target arm64-apple-macos11.0  -isysroot /Applications/Xcode1321.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  -I/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/include -DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD -DOPENSSL_NO_TLS1_2_METHOD
+CONFIGURE_CFLAGS=	-arch arm64 -target arm64-apple-macos11.0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  -I/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/include -DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD -DOPENSSL_NO_TLS1_2_METHOD
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -90,8 +90,8 @@ CONFIGURE_CFLAGS_NODIST= -std=c99 -Wextra -Wno-unused-result -Wno-unused-paramet
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST=
-CONFIGURE_CPPFLAGS=	-arch arm64 -target arm64-apple-macos11.0  -isysroot /Applications/Xcode1321.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  -I/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/include -DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD -DOPENSSL_NO_TLS1_2_METHOD
-CONFIGURE_LDFLAGS=	-arch arm64 -target arm64-apple-macos11.0 -isysroot /Applications/Xcode1321.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  -L/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/lib -lz -F/Users/jayl/git/XCFrameworkBuilder/ios/xcframeworks/openssl.xcframework/macos-arm64_x86_64
+CONFIGURE_CPPFLAGS=	-arch arm64 -target arm64-apple-macos11.0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  -I/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/include -DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD -DOPENSSL_NO_TLS1_2_METHOD
+CONFIGURE_LDFLAGS=	-arch arm64 -target arm64-apple-macos11.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  -L/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/lib -lz -F/Users/jayl/git/XCFrameworkBuilder/ios/xcframeworks/openssl.xcframework/macos-arm64_x86_64
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -178,7 +178,7 @@ PYTHONFRAMEWORKINSTALLDIR=
 # Deployment target selected during configure, to be checked
 # by distutils. The export statement is needed to ensure that the
 # deployment target is active during build.
-MACOSX_DEPLOYMENT_TARGET=12.3
+MACOSX_DEPLOYMENT_TARGET=12.4
 export MACOSX_DEPLOYMENT_TARGET
 
 # Option to install to strip binaries
@@ -214,7 +214,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/mac_arm/install_dir' '--without-computed-gotos' '--enable-ipv6' '--with-openssl=/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64' 'ac_cv_file__dev_ptmx=no' 'ac_cv_file__dev_ptc=no' 'ac_cv_func_getentropy=no' 'ac_cv_func_sendfile=no' 'ac_cv_func_setregid=no' 'ac_cv_func_setreuid=no' 'ac_cv_func_setsid=no' 'ac_cv_func_setpgid=no' 'ac_cv_func_setpgrp=no' 'ac_cv_func_setuid=no' 'ac_cv_func_forkpty=no' 'ac_cv_func_openpty=no' 'ac_cv_func_clock_settime=n' 'CC=clang' 'CFLAGS=-arch arm64 -target arm64-apple-macos11.0  -isysroot /Applications/Xcode1321.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  -I/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/include -DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD -DOPENSSL_NO_TLS1_2_METHOD' 'LDFLAGS=-arch arm64 -target arm64-apple-macos11.0 -isysroot /Applications/Xcode1321.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  -L/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/lib -lz -F/Users/jayl/git/XCFrameworkBuilder/ios/xcframeworks/openssl.xcframework/macos-arm64_x86_64' 'CPPFLAGS=-arch arm64 -target arm64-apple-macos11.0  -isysroot /Applications/Xcode1321.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk  -I/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/include -DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD -DOPENSSL_NO_TLS1_2_METHOD'
+CONFIG_ARGS=	 '--prefix=/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/mac_arm/install_dir' '--without-computed-gotos' '--enable-ipv6' '--with-openssl=/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64' 'ac_cv_file__dev_ptmx=no' 'ac_cv_file__dev_ptc=no' 'ac_cv_func_getentropy=no' 'ac_cv_func_sendfile=no' 'ac_cv_func_setregid=no' 'ac_cv_func_setreuid=no' 'ac_cv_func_setsid=no' 'ac_cv_func_setpgid=no' 'ac_cv_func_setpgrp=no' 'ac_cv_func_setuid=no' 'ac_cv_func_forkpty=no' 'ac_cv_func_openpty=no' 'ac_cv_func_clock_settime=n' 'CC=clang' 'CFLAGS=-arch arm64 -target arm64-apple-macos11.0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  -I/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/include -DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD -DOPENSSL_NO_TLS1_2_METHOD' 'LDFLAGS=-arch arm64 -target arm64-apple-macos11.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  -L/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/lib -lz -F/Users/jayl/git/XCFrameworkBuilder/ios/xcframeworks/openssl.xcframework/macos-arm64_x86_64' 'CPPFLAGS=-arch arm64 -target arm64-apple-macos11.0  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk  -I/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/include -DOPENSSL_NO_TLS1_METHOD -DOPENSSL_NO_TLS1_1_METHOD -DOPENSSL_NO_TLS1_2_METHOD'
 
 
 # Subdirectories with code
@@ -258,8 +258,8 @@ PYTHON_FOR_REGEN?=python3
 UPDATE_FILE=python3 $(srcdir)/Tools/scripts/update_file.py
 PYTHON_FOR_BUILD=./$(BUILDPYTHON) -E
 _PYTHON_HOST_PLATFORM=
-BUILD_GNU_TYPE=	arm-apple-darwin21.4.0
-HOST_GNU_TYPE=	arm-apple-darwin21.4.0
+BUILD_GNU_TYPE=	arm-apple-darwin21.5.0
+HOST_GNU_TYPE=	arm-apple-darwin21.5.0
 
 # Tcl and Tk config info from --with-tcltk-includes and -libs options
 TCLTK_INCLUDES=	
