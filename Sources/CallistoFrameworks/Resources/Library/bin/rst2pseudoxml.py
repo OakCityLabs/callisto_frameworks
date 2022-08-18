@@ -1,6 +1,6 @@
 #!/Users/jayl/git/XCFrameworkBuilder/ios/build/Python/macos-arm64_x86_64/mac_arm/install_dir/bin/python3.9
 
-# $Id: rst2pseudoxml.py 4564 2006-05-21 20:44:42Z wiemann $
+# $Id: rst2pseudoxml.py 8927 2022-01-03 23:50:05Z milde $
 # Author: David Goodger <goodger@python.org>
 # Copyright: This module has been placed in the public domain.
 

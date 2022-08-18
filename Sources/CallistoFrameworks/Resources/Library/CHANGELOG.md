@@ -2,8 +2,17 @@
 
 ## 4.0.2 / Unreleased
 
+- #246 Add dir_browser/htdocs folder to sdist (.tar.gz)
+- #248 Provider does not support set_last_modified" error
+- #251 Fix removing locks in recursive mode
+- #255 Fix ERROR: Invalid requirement: 'cheroot~=8'
+- #260 Fix Case-Sensitivity issue on MOVE/COPY actions through Windows DAV
+- Add shelve support to MSI installer (persistent lock- and property storage)
+
 ## 4.0.1 / 2022-01-11
+
 - #241:  Add SSL libs to MSI installer
+
 ## 4.0.0 / 2022-01-09
 
 **Breaking Changes**
@@ -29,8 +38,7 @@
 
 **Other changes**
 
-- Provider root paths are evaluated relative to the location of the configuration 
-  file 
+- Provider root paths are evaluated relative to the location of the configuration file
 - DAVCollection, DAVNonCollection, DAVProvider are now ABCs.
 - Deprecate hotfixes.winxp_accept_root_share_login and hotfixes.win_accept_anonymous_options
 - DirBrowser supports `?davmount` URLs by default (option `dir_browser.davmount`).
