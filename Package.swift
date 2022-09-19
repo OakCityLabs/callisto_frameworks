@@ -300,1353 +300,1353 @@ let package = Package(
         ),
         .binaryTarget(
             name: "awk",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/awk.xcframework.zip",
-            checksum: "1de7a8215dfcf92f3e365ed21b2bcdb8b1d77e4783540b9abe883b1481dbf0d2"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/awk.xcframework.zip",
+            checksum: "997ef9c6f79b7444e13c1b4ec831f70ea9a0045f742ed8fb15e6c3286abd698f"
         ), 
         .binaryTarget(
             name: "curl_ios",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/curl_ios.xcframework.zip",
-            checksum: "96f128b85948012042024723ffeb12fca646294bbb20cd02173244b2b772682b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/curl_ios.xcframework.zip",
+            checksum: "601e18f8a4d9647e31367e0a434ec42b17a75d15f91824fd599f05a96d2773cc"
         ), 
         .binaryTarget(
             name: "files",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/files.xcframework.zip",
-            checksum: "f94673b5692bef7d8d506cac154f4a4296cdb34ec0f046aba01dabdbb40e488b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/files.xcframework.zip",
+            checksum: "660a597f6433d90bfb326be1a2baf9b586dd52be93e0ddf19f246f8b21002c8f"
         ), 
         .binaryTarget(
             name: "ios_system",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/ios_system.xcframework.zip",
-            checksum: "43a55c9504c150ead5c9c3de5ef01cf512268b9dd0a033de9c2fd793ae3397ba"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/ios_system.xcframework.zip",
+            checksum: "50ba9ae0c8379293dbcf6607da8fcb7cbdfe1982273eae20c1f4b612dc95e3e0"
         ), 
         .binaryTarget(
             name: "libexslt",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/libexslt.xcframework.zip",
-            checksum: "93f94dd2148df87f81e9881bffe44c90727af221d0c83281bc1a31d8eaa97249"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/libexslt.xcframework.zip",
+            checksum: "0e9082a92a6da3aae7e106d099fb04916791bb1bdd96116ef5b0ad7b6cb19523"
         ), 
         .binaryTarget(
             name: "libfreetype",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/libfreetype.xcframework.zip",
-            checksum: "c804b44cf0ebb71850e6ae21b41c8a245db5109bfc734fe91718deff15497562"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/libfreetype.xcframework.zip",
+            checksum: "1eb2157f6f0a9c829450e53b6d554b77cf86d4975957dbb3481fd5b376b3ae68"
         ), 
         .binaryTarget(
             name: "libharfbuzz",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/libharfbuzz.xcframework.zip",
-            checksum: "a39f725eaafe210f295396703eff902b1a9695bc21ed5355bfd1d0c422a16db1"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/libharfbuzz.xcframework.zip",
+            checksum: "711287678dc066e7d7939466bdd54db0bd8564ecd758b522fba38489e12bded3"
         ), 
         .binaryTarget(
             name: "libjpeg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/libjpeg.xcframework.zip",
-            checksum: "cf214b3dd6e590351801127357f1aac8ede4a9cc9044275ac45f201fa66fa288"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/libjpeg.xcframework.zip",
+            checksum: "eacbea30967277329624c98bf3cb85ee3574d9005bf95390aae5360b92f807d4"
         ), 
         .binaryTarget(
             name: "libpng",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/libpng.xcframework.zip",
-            checksum: "c47dd241cf962c27e5e33395f3b4304f5d53e3da97607700e075d1a46c88b172"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/libpng.xcframework.zip",
+            checksum: "1c83581f3fcde8337c3c63106bc28b36b74e1bd9cdb516767eb9bb88a16d7b8e"
         ), 
         .binaryTarget(
             name: "libssh2",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/libssh2.xcframework.zip",
-            checksum: "7afc2efa8f8df1e0fa4253a65597691c508ecff8cefdc447b243134b953b9ffa"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/libssh2.xcframework.zip",
+            checksum: "df1580e99425baad73405a49fdc974e0dec68e338b24b5fdf86f545e8a68021b"
         ), 
         .binaryTarget(
             name: "libtiff",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/libtiff.xcframework.zip",
-            checksum: "2e69c76cece8db6809197f3deaf9a096ceb05426e02d2a17a2cffff360cd52c3"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/libtiff.xcframework.zip",
+            checksum: "d3ea4cd8ae8ebf48bf329b443fd907c05a0b84fc464e87cb3ff477f3013cd027"
         ), 
         .binaryTarget(
             name: "libxslt",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/libxslt.xcframework.zip",
-            checksum: "ca6591d8be5844a1637d1f19c270f34e53fd33b73953bd01dc3cd7045cb5475c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/libxslt.xcframework.zip",
+            checksum: "ad48b7c240fbec02837f02a61450d4c7e71f5aa4c874e153327fd6f90984eec4"
         ), 
         .binaryTarget(
             name: "openblas",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/openblas.xcframework.zip",
-            checksum: "4ec910eeb2cde1efb8f62751f75412b08353da7cf533754d95a8370502fbd4da"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/openblas.xcframework.zip",
+            checksum: "66769ba458db4d50e5c295281800bf579341b8b59aa61392e0756446158e7e12"
         ), 
         .binaryTarget(
             name: "openssl",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/openssl.xcframework.zip",
-            checksum: "0325b89e29c20e7205e332c71cdeb106d625e5e7bdb589daae4981a908f1d4f4"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/openssl.xcframework.zip",
+            checksum: "cd722e8299d4b77dc7d7d143a49014612f81a9610b8898ac8505f9271d423757"
         ), 
         .binaryTarget(
             name: "python3_ios-PIL_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-PIL_all.xcframework.zip",
-            checksum: "a6c259d69c09711edcd5e35649bbdc7e617205b36c701692bdbe3c875f10b736"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-PIL_all.xcframework.zip",
+            checksum: "f608f5eff4968fc0d3482253be5e12d8bed5ea3f72ead123992778ae80c22f38"
         ), 
         .binaryTarget(
             name: "python3_ios-_bz2",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_bz2.xcframework.zip",
-            checksum: "1aa0bde742bf456f88be1f5cbb65c5564cafe2a181f7536481666f69cd4a05c6"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_bz2.xcframework.zip",
+            checksum: "70804351986e81baa24ead90eb0f5107544d85c680113fcd3f51c24ea9dfe051"
         ), 
         .binaryTarget(
             name: "python3_ios-_cffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_cffi.xcframework.zip",
-            checksum: "1be700bc32012df05984f101c8a9a2bbdab676244b70e246b73831a9b16596df"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_cffi.xcframework.zip",
+            checksum: "3f9b1de07578aa91e8185951d7aed02c4fe449ee74a4b958f1d006e7e7214913"
         ), 
         .binaryTarget(
             name: "python3_ios-_cffi_backend",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_cffi_backend.xcframework.zip",
-            checksum: "c5f78fe36fc73b132587feed11b3b04d24d9bb35d7c1292f24b681e1729d1f2d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_cffi_backend.xcframework.zip",
+            checksum: "614fe75e17eb0977fad1307b8ac2aae8f9dff20c50d62774d49ab9f04ff37ba7"
         ), 
         .binaryTarget(
             name: "python3_ios-_crypt",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_crypt.xcframework.zip",
-            checksum: "43b39675e49d29dc50cffa7f95a8d6f7bab00ac406971a747c53dac064fcb1e7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_crypt.xcframework.zip",
+            checksum: "6f231c2d391bbe30e42bbb59899ac9d552b48693f2fccbbdcf1b422bdbfe5475"
         ), 
         .binaryTarget(
             name: "python3_ios-_ctypes",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_ctypes.xcframework.zip",
-            checksum: "62d0fa48ed66f77c3f894090d1f79cbd1414fd3248d12949cb1a7abb8f8429d3"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_ctypes.xcframework.zip",
+            checksum: "348fa9718a5120ec487bc60b78eb9a63afabf9996766064d177a2dd99d063d0c"
         ), 
         .binaryTarget(
             name: "python3_ios-_ctypes_test",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_ctypes_test.xcframework.zip",
-            checksum: "c829019791de77445e58dd25e479f777553ab56ac5e7005153ba8f7d2b6395be"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_ctypes_test.xcframework.zip",
+            checksum: "18b70fbd65849e6241e43a9fe38713f98a9a99cd32946a883695085cd55a5312"
         ), 
         .binaryTarget(
             name: "python3_ios-_dbm",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_dbm.xcframework.zip",
-            checksum: "c8aa9587e8c337a9e82ae94786deccd06335c7341e5fbffceb85de5d7e210552"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_dbm.xcframework.zip",
+            checksum: "5f2549e32e7e2d6bd5a480574fff43e8d43e4f873049012577929ea7a6ca4073"
         ), 
         .binaryTarget(
             name: "python3_ios-_decimal",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_decimal.xcframework.zip",
-            checksum: "8504172941dc8ff67812828d37e950be80aa924b8844d3ffb0b589d57bf24cd3"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_decimal.xcframework.zip",
+            checksum: "9ec4e4631edfeef25fe2d8bc7ac68f09345e2d51edab89747453c8c200b3e407"
         ), 
         .binaryTarget(
             name: "python3_ios-_hashlib",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_hashlib.xcframework.zip",
-            checksum: "30fce3f01d28195787525fb7617844902a93a6610c8a0f18969acf59c3979444"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_hashlib.xcframework.zip",
+            checksum: "14c7dac796aaf2e9adf860d99fc2541b90e0a1eb6844327697608b46d21e7977"
         ), 
         .binaryTarget(
             name: "python3_ios-_lsprof",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_lsprof.xcframework.zip",
-            checksum: "5d5755066465ac9bff2dd627016aaabc74236bb4fcd4ddf56a6f7dc188b209f4"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_lsprof.xcframework.zip",
+            checksum: "af358f8d421cb14deb0175060c18f5b51584711ec814c0b617d9578fdec0fd0d"
         ), 
         .binaryTarget(
             name: "python3_ios-_multiprocessing",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_multiprocessing.xcframework.zip",
-            checksum: "2160a5274ba19d1a6deb0d1c87b79a00e8a928861650de8062ca7f18abcd4676"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_multiprocessing.xcframework.zip",
+            checksum: "bafea0f5721ba740555505fabedd8deeffa11edb7d4d4409cfb62c3ff254c42a"
         ), 
         .binaryTarget(
             name: "python3_ios-_opcode",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_opcode.xcframework.zip",
-            checksum: "40f78e4a2952ed11445ac87c2c92f0616f0fd6dab401beee8ed5e7e5c9122693"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_opcode.xcframework.zip",
+            checksum: "5b11410542626978bcfdbcdcd4f7068b6ee4383f98923a1e76555ffd63e5ce92"
         ), 
         .binaryTarget(
             name: "python3_ios-_posixshmem",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_posixshmem.xcframework.zip",
-            checksum: "325e70a2954261084ee35c6651664ed120b3de84de8947c13a2883b0e24afc0d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_posixshmem.xcframework.zip",
+            checksum: "ab394bc612b30a8f4083034c5a821af6dce634b15463ce3fa277e909dcfa96df"
         ), 
         .binaryTarget(
             name: "python3_ios-_queue",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_queue.xcframework.zip",
-            checksum: "b095287937fe1976a489a0d8ac301f79552c21ab415a1d0376cd6b1159b99f0b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_queue.xcframework.zip",
+            checksum: "2e33272d0487d07b89b9b34f4649ebef99ea864157f25b57e9cf2706f002c931"
         ), 
         .binaryTarget(
             name: "python3_ios-_sqlite3",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_sqlite3.xcframework.zip",
-            checksum: "c6cb8cb6ec0f6035f64f986e265d3e5c9b5c5cfa5e1a1dd1dee9cbf24b0d05da"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_sqlite3.xcframework.zip",
+            checksum: "9ef8760008b434affb8d5dd1e2d322e95cb24fcd4552bca2cfd96b94b8c5a791"
         ), 
         .binaryTarget(
             name: "python3_ios-_ssl",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_ssl.xcframework.zip",
-            checksum: "62933d74b2cdf4110a3231066da66f982ca3b510e04832c5860e2425f3f6b9cc"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_ssl.xcframework.zip",
+            checksum: "d0e81ccc3f659d4313271f955f3e83578d22b53d0e24707142fc35689f414493"
         ), 
         .binaryTarget(
             name: "python3_ios-_testbuffer",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_testbuffer.xcframework.zip",
-            checksum: "25541d1a14172ac623506995e680788ca7135c7514e204a454c2731845320cab"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_testbuffer.xcframework.zip",
+            checksum: "2313104018aa6bbb09f74d5d29139077e0b901b002af4f26a9a8fffd580fd61c"
         ), 
         .binaryTarget(
             name: "python3_ios-_testcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_testcapi.xcframework.zip",
-            checksum: "57789d47286435c076bafba6ca3f9d6d7979ae13f27d80b577f0df24cdd1a015"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_testcapi.xcframework.zip",
+            checksum: "db570e781c7cb5f887489463aa45b9ea09c13f92c0d5e4a01831f9d2d191204f"
         ), 
         .binaryTarget(
             name: "python3_ios-_testimportmultiple",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_testimportmultiple.xcframework.zip",
-            checksum: "d5e4d29f57682877903dce50214b92032f16c79b29370b1ec6526d38895537ea"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_testimportmultiple.xcframework.zip",
+            checksum: "5039f9ee666c7947b2bea02d8dfed97cafa3393fe04cfa16b834c66f414c3183"
         ), 
         .binaryTarget(
             name: "python3_ios-_testinternalcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_testinternalcapi.xcframework.zip",
-            checksum: "0f0b4d8aa1a8d29c9e1a7086cbcd4eda23f676227f160307529d8c1ea901f520"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_testinternalcapi.xcframework.zip",
+            checksum: "95c52fce28ad22334b3d3115de01bb3c59eb55e84d9ca528a3c82757b9f2f417"
         ), 
         .binaryTarget(
             name: "python3_ios-_testmultiphase",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_testmultiphase.xcframework.zip",
-            checksum: "3f0df2f6df824ba73d39fbeaf2b53bb3dadb2b6d17102d208e94a5d6c464ebcf"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_testmultiphase.xcframework.zip",
+            checksum: "9ea2b1af3b64d1d2951a4764f7678c082cc605eb442e7476513fee506ea8d8ad"
         ), 
         .binaryTarget(
             name: "python3_ios-_uuid",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_uuid.xcframework.zip",
-            checksum: "625c148e3ceed2663bc31baa265dc3b93588b505166035df19c7fd0972eb8228"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_uuid.xcframework.zip",
+            checksum: "25a23f1bf2b215634c8476077eeb8c82f3bc04aa18abbe5d44a5778564b5e0b6"
         ), 
         .binaryTarget(
             name: "python3_ios-_xxsubinterpreters",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_xxsubinterpreters.xcframework.zip",
-            checksum: "fbf12aff5cab343c310d6765da77ab2fcd7a069e6c034ecba9b02501e7a35f27"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_xxsubinterpreters.xcframework.zip",
+            checksum: "34aac8f7153bee1f2ead375961ebb7de56a4ebf41c5408a8feb05f30062e450c"
         ), 
         .binaryTarget(
             name: "python3_ios-_xxtestfuzz",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-_xxtestfuzz.xcframework.zip",
-            checksum: "7aa41f87c7d865555ac4ba763d6671d85e99a58e98aa02bec8a6fbcaae4c1cbd"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-_xxtestfuzz.xcframework.zip",
+            checksum: "4532a5204ab53a3e6a2650f7e4fb1e300b56c0db2321317d3a2ebb54cfeb0584"
         ), 
         .binaryTarget(
             name: "python3_ios-argon2._ffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-argon2._ffi.xcframework.zip",
-            checksum: "c39e6a408ad7dc215af5907089b94a908ca8c6633ed1f8943fb81beb76c89f79"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-argon2._ffi.xcframework.zip",
+            checksum: "d55e4ed5bf29e85db65723899a8299759a9836bf7cf8bddca85e28889e702a15"
         ), 
         .binaryTarget(
             name: "python3_ios-kiwisolver",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-kiwisolver.xcframework.zip",
-            checksum: "862c427a34659b2d269dbbee1e4978c254cfc55af44f8d37d838a17b9f134246"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-kiwisolver.xcframework.zip",
+            checksum: "b205dfad5c9b1500ec249406a9a89ade374d621fe3c4c53454152c4629a03ff8"
         ), 
         .binaryTarget(
             name: "python3_ios-lxml_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-lxml_all.xcframework.zip",
-            checksum: "031f0fed903caca38a230106198d9679fcebdfe07a0d06a61789536755409807"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-lxml_all.xcframework.zip",
+            checksum: "de2372737f87f427acf59bd93bd293d667b45357c85929fff40a7ba79cf99f2a"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib._c_internal_utils",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib._c_internal_utils.xcframework.zip",
-            checksum: "3306145223a6b3824d993fdff8720cb6287a65aa05ce6f7e8f921cbfd6b4b565"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib._c_internal_utils.xcframework.zip",
+            checksum: "86ba8fc45f6d3b4f4673216f482f5e3e32eed84ec5cb484d1111bb9e76f96e34"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib._contour",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib._contour.xcframework.zip",
-            checksum: "fa647c897dbf0bd3684ea961e030ab81eebaf9022156b88cdf2c75dd43db9d47"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib._contour.xcframework.zip",
+            checksum: "ac6c40a79282c7cc9618f57e4999951b11ee9ab1fc7de291a6f42ecef04d2313"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib._image",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib._image.xcframework.zip",
-            checksum: "56103af2decea9fc976feb730efb495dbe9dcef074e1c6106034d5a0d17c7a84"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib._image.xcframework.zip",
+            checksum: "ccae17e4d93df361233a0a72045df95b543cf295d113bddc6ad74d2ff2f41c78"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib._path",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib._path.xcframework.zip",
-            checksum: "5048716e47541719fdecf8f0f29e4a3d7bfde2ddac12a4b8cccd5576d005b927"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib._path.xcframework.zip",
+            checksum: "75aef11b1f017a47b6f7e99b0ce992bcfe3475e6663c40be7a1423058a4b7736"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib._qhull",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib._qhull.xcframework.zip",
-            checksum: "8550ff8bc4f362fe7d833ed009ddaf63e02859248ada75aee390831827e19b50"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib._qhull.xcframework.zip",
+            checksum: "244805d7d75a218f09e441e5bd588ca5fd1b82e1a2f5f8cc538a0e48314d8362"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib._tri",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib._tri.xcframework.zip",
-            checksum: "1a4e5e8d48e7ad5c80e22f612e6c2463dcce14821eba8fc0c7e4e880f2147923"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib._tri.xcframework.zip",
+            checksum: "1da98b270df3f3e85bfc7f2ca44a10937e59c3be46d4a5adf6abe5cb5b441c17"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib._ttconv",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib._ttconv.xcframework.zip",
-            checksum: "e4081d009827545893ff6d3255cb4cb6db15b64f4f2af2d46639b924f9baa60c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib._ttconv.xcframework.zip",
+            checksum: "e28bde21d6bb219be593d810df4f03599c0ede857d5a64e078bfc1399e1bd269"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib.backends._backend_agg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib.backends._backend_agg.xcframework.zip",
-            checksum: "995b6281f6b3f3fc6c5c8f4109d967c027b38c6dc6dba314ddd17c81f919ee45"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib.backends._backend_agg.xcframework.zip",
+            checksum: "23f1d1d8f3232a819c1da15505d9903ce400e4fbd7a750f612aaf66533515b5f"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib.backends._tkagg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib.backends._tkagg.xcframework.zip",
-            checksum: "8d63cb385ced82ef901fdb54520e3d0bf91ab908b14787b2acd9b294ef930786"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib.backends._tkagg.xcframework.zip",
+            checksum: "1d22abe8b3a9f36bd4bf0b9e52366054977eee03af28ddb38b5f0f2654f3bea7"
         ), 
         .binaryTarget(
             name: "python3_ios-matplotlib.ft2font",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-matplotlib.ft2font.xcframework.zip",
-            checksum: "ca2797885d86e6ef2e3fa53b0ffdef46e7322ffe97c203b3bac549d1d0dda642"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-matplotlib.ft2font.xcframework.zip",
+            checksum: "91fd51d0b10e4c0603132a73ba6c25057da89206f103db9614a29894e6510a32"
         ), 
         .binaryTarget(
             name: "python3_ios-numpy_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-numpy_all.xcframework.zip",
-            checksum: "0d5d6f9dfc6d334503fca3abd8a776bb3fc9607afee3cbac215cd51b04fe4a43"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-numpy_all.xcframework.zip",
+            checksum: "d16afa35ddeb76cacb9d035891e72e6fc048f3e9d18fd7064c3f63df9983c9cb"
         ), 
         .binaryTarget(
             name: "python3_ios-syslog",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-syslog.xcframework.zip",
-            checksum: "5692b5fa6137c1c99a0f96ca1f94444381057e4f450a21972d5141e5cf9964a8"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-syslog.xcframework.zip",
+            checksum: "028f554ddcfe374efda0bb4b6183f71da17437423552bb2c1961345b03baf006"
         ), 
         .binaryTarget(
             name: "python3_ios-xxlimited",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios-xxlimited.xcframework.zip",
-            checksum: "94372058aeeed4e55a43b167ebe20cf7b51be4f194b29a124085a223fd076451"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios-xxlimited.xcframework.zip",
+            checksum: "73f1332614f00ffd73c828d2a2689f6e3b0340bb332657bea0821f8f3df6f853"
         ), 
         .binaryTarget(
             name: "python3_ios",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/python3_ios.xcframework.zip",
-            checksum: "f2048926273041924fa6aacd5a6b1d40a163a7b8cb11d7113b6bcd40fcc369ba"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/python3_ios.xcframework.zip",
+            checksum: "fc7bd3627ec9ee3a423976ba8588c7e7ffc366c4e25852bff1cd23ff1deaf2c9"
         ), 
         .binaryTarget(
             name: "pythonA-PIL_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-PIL_all.xcframework.zip",
-            checksum: "ae38fa1ac0069b9f335f5c684c5b375ba4f68d96e80d874ea993cd5ff37b96d5"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-PIL_all.xcframework.zip",
+            checksum: "ff6e3c728e4a03e5237be9ad62bd57736d20b1f0ba77e99db4728012fad165b7"
         ), 
         .binaryTarget(
             name: "pythonA-_bz2",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_bz2.xcframework.zip",
-            checksum: "f24fe559dccfe38232d2088458a3e90dbd7f43113080e7d70eab96f7dda98b12"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_bz2.xcframework.zip",
+            checksum: "6421022acfd8db2097695ad2652e5ed4494286a32fbf73ee6f902b949e623513"
         ), 
         .binaryTarget(
             name: "pythonA-_cffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_cffi.xcframework.zip",
-            checksum: "c185a06b2c743957b41438d55e8c19c95f9c228f017b84bfa8f2b5ba267ed3e9"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_cffi.xcframework.zip",
+            checksum: "ff83dce41ccd3ef039380211582bcb282493b3c4e7e58fb05cada1a009821c0c"
         ), 
         .binaryTarget(
             name: "pythonA-_cffi_backend",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_cffi_backend.xcframework.zip",
-            checksum: "34e1220897cf424e5345a445557396a03fb19137b53827b99c3e5cf3ebda5c35"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_cffi_backend.xcframework.zip",
+            checksum: "8c66b0c58c2a4b67fd0fa1a251aaf96b09e163d9a0acebb2b7cce41a64e34588"
         ), 
         .binaryTarget(
             name: "pythonA-_crypt",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_crypt.xcframework.zip",
-            checksum: "80d372c5f12b3eb48a8a2db1f62ad62a99bdee5cb15b8c0b6e539683ce44bf0e"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_crypt.xcframework.zip",
+            checksum: "666ac6375c3ae5b1f1cfea9fb6bd298803a8e92345c5a1caa287b77d673661c9"
         ), 
         .binaryTarget(
             name: "pythonA-_ctypes",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_ctypes.xcframework.zip",
-            checksum: "53d0357a5e85a381e81ee074f61c0c5ba45612cfcc86e716f4a16687b5c9bdca"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_ctypes.xcframework.zip",
+            checksum: "27e718a5cb1238f0ca4afc018cae4bb883bbd732e57819502ba62ed4657c7735"
         ), 
         .binaryTarget(
             name: "pythonA-_ctypes_test",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_ctypes_test.xcframework.zip",
-            checksum: "43e6b9f79f93dcb56904788a6fcc33682c2b21ce24aa71382ba3ea15218bd53c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_ctypes_test.xcframework.zip",
+            checksum: "7839aa8a1d0b4e7bbe5ccc4f24c13ad3795083da6de2ac08662363abaa448333"
         ), 
         .binaryTarget(
             name: "pythonA-_dbm",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_dbm.xcframework.zip",
-            checksum: "ab70709f280a9b14a863a0769428acd594ce449b22551ee23f572124d94e4d6c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_dbm.xcframework.zip",
+            checksum: "925cc478209c96bd1669662debdcda68f1d2f94da843341125e3f4cc50ec93ca"
         ), 
         .binaryTarget(
             name: "pythonA-_decimal",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_decimal.xcframework.zip",
-            checksum: "1f3b0bd3b3ef83f27eda6fe14e0bc761d1cbd5ee31aae7ea7ad72489bbf7746f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_decimal.xcframework.zip",
+            checksum: "225de629b9625404c2b87ae4bab93465c95a897b5126d350e2a867d479010913"
         ), 
         .binaryTarget(
             name: "pythonA-_hashlib",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_hashlib.xcframework.zip",
-            checksum: "d8d1984a0af436b599bf697a17556660092eb43d5c45de2ea254cc0717e8dfd0"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_hashlib.xcframework.zip",
+            checksum: "989bb47e0f9dab8a9ab7459dcdb01e3c9aae150a9497951e4718908648ea5014"
         ), 
         .binaryTarget(
             name: "pythonA-_lsprof",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_lsprof.xcframework.zip",
-            checksum: "b39baf47053f6905e8f1b6c8b42bae4b9056cdc222551849deeddcf2831878fd"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_lsprof.xcframework.zip",
+            checksum: "016f01b3889b036e559e717338cf440d74e5dad44e67cf7d086d4a3230babe48"
         ), 
         .binaryTarget(
             name: "pythonA-_multiprocessing",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_multiprocessing.xcframework.zip",
-            checksum: "5e990fc359d37da014db4512666f400d8324c0df41a70f73a41affed8c27b5f9"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_multiprocessing.xcframework.zip",
+            checksum: "5c6d87f0c61143756efd4aaa2a8191eea9a41dd12fdc62b7d80dbb9beea6463d"
         ), 
         .binaryTarget(
             name: "pythonA-_opcode",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_opcode.xcframework.zip",
-            checksum: "feb6ec0a20893c76d9b52ea130fda24ae3ade6f2926687d844253b91eb28c4df"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_opcode.xcframework.zip",
+            checksum: "599259a0f3cd8bfef6e647c4eb1d6da3b93bd52c8a9b38174c4e9ff75de1f918"
         ), 
         .binaryTarget(
             name: "pythonA-_posixshmem",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_posixshmem.xcframework.zip",
-            checksum: "1a8b2eb8d67d0d0c7906eb091c91c253032fb9ab5ad07811a782c92006cfcac9"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_posixshmem.xcframework.zip",
+            checksum: "07c6bc561de9865853e0edda93405278e2b370e6cf68ef83b9c2a1ad8b29c0f1"
         ), 
         .binaryTarget(
             name: "pythonA-_queue",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_queue.xcframework.zip",
-            checksum: "2b26dd60a87bcaebada351bd29a2cc5c111df3240047fafceafca9f0e52e83d2"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_queue.xcframework.zip",
+            checksum: "f75f09a0acb92746fbc0db1f3fd245e672e4b61c124123db812133bca12c37e3"
         ), 
         .binaryTarget(
             name: "pythonA-_sqlite3",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_sqlite3.xcframework.zip",
-            checksum: "38053c24d2bb90f9953329b4b7d805aa0d8c516d324b97edbd8786e5a1bc324c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_sqlite3.xcframework.zip",
+            checksum: "d19db3c4d0334b84e3c01886ec0374eb97fcf2f527782b00907966720ed74781"
         ), 
         .binaryTarget(
             name: "pythonA-_ssl",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_ssl.xcframework.zip",
-            checksum: "a005084efe6bc577e423d6071af5905fbb9ccc6770901a5d9ee2a59b290ef393"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_ssl.xcframework.zip",
+            checksum: "d9343a6751232101e4b388bd1099f09f255e3fda17c84beaed3be8554662fb6d"
         ), 
         .binaryTarget(
             name: "pythonA-_testbuffer",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_testbuffer.xcframework.zip",
-            checksum: "522510409016baeb696e5bbf625dcac1e2d7bbeac2f861c6ca033a2c1af0753d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_testbuffer.xcframework.zip",
+            checksum: "a1439186246b9c59328afee2d4402669fc8bff98a3b884d13835e567bbf2369d"
         ), 
         .binaryTarget(
             name: "pythonA-_testcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_testcapi.xcframework.zip",
-            checksum: "0c9fe8b7b384939a09cf8b736fe43499d38892025c271d84a9a72980a0d6e593"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_testcapi.xcframework.zip",
+            checksum: "0ec6c615a6f146abe1c0bfd314631bbc695f9327dade5d8d6fcfe5cd1d2d7777"
         ), 
         .binaryTarget(
             name: "pythonA-_testimportmultiple",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_testimportmultiple.xcframework.zip",
-            checksum: "3d589e2390a153cdf16ad06bad49538223068713b01fd660e9dbfec5a1d7bac7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_testimportmultiple.xcframework.zip",
+            checksum: "78af4e3253f6e83d55ec60f5fa400e25e8d19d8d666cdbe8727e79ac5d1d926d"
         ), 
         .binaryTarget(
             name: "pythonA-_testinternalcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_testinternalcapi.xcframework.zip",
-            checksum: "1b8c1cb9ae891f6c2dc94659952a078f9a9ab6ef00b047cd1e45f27fa05f7528"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_testinternalcapi.xcframework.zip",
+            checksum: "72dce29abf4661bfa44903c7c81f64143d34ead6d4c9631f29c849df78c26efd"
         ), 
         .binaryTarget(
             name: "pythonA-_testmultiphase",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_testmultiphase.xcframework.zip",
-            checksum: "a353c700fdfcdadf60472c5d6b7505f1337e46d8acd8078670b84580cce427bc"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_testmultiphase.xcframework.zip",
+            checksum: "4666f8fa7103f43d275eda71092479351f761dde7bdd80123a6a08b1620d2b36"
         ), 
         .binaryTarget(
             name: "pythonA-_uuid",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_uuid.xcframework.zip",
-            checksum: "1cb9579a27b1252ac66ce48c8f1f4e8d84f707b4b3f39f67efaf923c2dd6c44d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_uuid.xcframework.zip",
+            checksum: "54ffba6a4278b0e1f67199d6bf26bafc9ff5bc05f2409cd09cf25ab713078bb7"
         ), 
         .binaryTarget(
             name: "pythonA-_xxsubinterpreters",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_xxsubinterpreters.xcframework.zip",
-            checksum: "fa666bbbd7d3343e5917c4759f63548a91643b993759cef4cc8cead9ce53e20f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_xxsubinterpreters.xcframework.zip",
+            checksum: "d123bc8f6f3ae67de802c63586ed9553cfca57832db1d3922398d289c5de705c"
         ), 
         .binaryTarget(
             name: "pythonA-_xxtestfuzz",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-_xxtestfuzz.xcframework.zip",
-            checksum: "71cb32ab1aadb5e44c795ec7c7a090f6510e5388687db4cffc98e57ffe22308d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-_xxtestfuzz.xcframework.zip",
+            checksum: "e50efcde9790819afe3bb64b20d575576129614ed9db210d34e2e3e646f17cc5"
         ), 
         .binaryTarget(
             name: "pythonA-argon2._ffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-argon2._ffi.xcframework.zip",
-            checksum: "3669a0617cfee3ffeaa6ecbddf6bc81594435523f5641dd17e94f6f31fd11aae"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-argon2._ffi.xcframework.zip",
+            checksum: "6d77ae771a1b3c4c449efac8fd0cd3513271c5abe08fb9250ee225056699d37e"
         ), 
         .binaryTarget(
             name: "pythonA-kiwisolver",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-kiwisolver.xcframework.zip",
-            checksum: "c8d8ba891a346c9d1b99efc4655f04c03f165a02d7091c4bc379971fdc648820"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-kiwisolver.xcframework.zip",
+            checksum: "6073cd02e67f90514d76cf89f553d06a45d5cce09eeb95eb5dadae0867083157"
         ), 
         .binaryTarget(
             name: "pythonA-lxml_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-lxml_all.xcframework.zip",
-            checksum: "14fb89a1b74284efeeac297c8c440f259b2be5d8617ac83b16c82fecc3d6b27a"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-lxml_all.xcframework.zip",
+            checksum: "d8f2eb4816ab3a93a058d5f99c991e116ab3f24d134175f217ad8ea57edcca20"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib._c_internal_utils",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib._c_internal_utils.xcframework.zip",
-            checksum: "053d67609159732322ad46eb41c9263701d0cc2e3bbbd74896691956af5d74cd"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib._c_internal_utils.xcframework.zip",
+            checksum: "d6bb83c73b0efdf95cd5a42eea66762840a5ec305743022654bf87263a4819a5"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib._contour",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib._contour.xcframework.zip",
-            checksum: "787f4c1408d9df56762a86ebf4eb67e532c40bb6755968249e163b7b04f8ec53"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib._contour.xcframework.zip",
+            checksum: "3fb746292c1e4b61f404bef22647c6f633c1f0286bca4651b3e06fe1564a66d6"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib._image",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib._image.xcframework.zip",
-            checksum: "a48ee3e6e154cdc1d351007890cb3e02b5362540bfbdfe1d7cd5781f44db66c8"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib._image.xcframework.zip",
+            checksum: "46b100e2943c41fa8a63f2afe7f36a91afc1647bce6029926dc0548e87120e71"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib._path",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib._path.xcframework.zip",
-            checksum: "60959b29d78d16601763318ede0372479b14626fbf754b115883c07c6d4a92a1"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib._path.xcframework.zip",
+            checksum: "fbd18a23c00b7de6ed8afc9ed199d697e4c6aa85b4df413568e45585315ec7f4"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib._qhull",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib._qhull.xcframework.zip",
-            checksum: "04001351194b5cd5e767ecc1ba654a0c3d0344b33bc843f2fec8a78e638853c0"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib._qhull.xcframework.zip",
+            checksum: "aa5b711d01e24bae8d839e45ee0fb25c732d0ba25ee6c94bc40db4a08f6ba8f3"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib._tri",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib._tri.xcframework.zip",
-            checksum: "53456a4897c68930cd1680be7a7ba323189eba25249fd38f6401ecca06317922"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib._tri.xcframework.zip",
+            checksum: "cdbe4dd78de490e75b7685af69fca4ceaf984892e9dcb75f01214f515cd73ffa"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib._ttconv",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib._ttconv.xcframework.zip",
-            checksum: "e6b518800546c3303b55bdc2d28cad36b6c5c28576ddafda0671cef87597f00a"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib._ttconv.xcframework.zip",
+            checksum: "f068f638272ebed324f1ba98d22df175ebbbbae0632f882fba636d9d99662048"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib.backends._backend_agg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib.backends._backend_agg.xcframework.zip",
-            checksum: "8f254d9b5a6cf33ebc0db4143fab8bc284a4469e45614a9056f5894d0f7ec50c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib.backends._backend_agg.xcframework.zip",
+            checksum: "e6c5bd9761a2361dfcc5c810b2302243808f4db7f12073276b10d5987f43ce2c"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib.backends._tkagg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib.backends._tkagg.xcframework.zip",
-            checksum: "ff73e1eb2a0b1b1367d187d2c3016bfcc6ea915e6c4df76f32fe392205b88a25"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib.backends._tkagg.xcframework.zip",
+            checksum: "858a0f4cbf9dbda99944047d38aeb83901d5501d90605bf7eea5270fbefe42e2"
         ), 
         .binaryTarget(
             name: "pythonA-matplotlib.ft2font",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-matplotlib.ft2font.xcframework.zip",
-            checksum: "c171536ffff7b1f9baffcd75b40618296671f6e98e64c51a70967271e6ac9d48"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-matplotlib.ft2font.xcframework.zip",
+            checksum: "bf23a22ad50fad08b7f71a46b1cd6c1c4eb7fd2d15d0072d5a4d89f858071862"
         ), 
         .binaryTarget(
             name: "pythonA-numpy_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-numpy_all.xcframework.zip",
-            checksum: "8bd40a7165a00ba086ce3f96182089924291258c33daa24fb1a7329394e0120e"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-numpy_all.xcframework.zip",
+            checksum: "ca582eec987b3ce667af30be1515ec10b5afd8bc469c17c7523feea940b46075"
         ), 
         .binaryTarget(
             name: "pythonA-syslog",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-syslog.xcframework.zip",
-            checksum: "cac543db23d4b3af28c9fecadbbcf806f7bab8fc95fd0ff7d37bd9ba38f83aa6"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-syslog.xcframework.zip",
+            checksum: "5b261c65824ae5c0e681a9e947dc7464246f4dc6f932528a20b48718a00f0ada"
         ), 
         .binaryTarget(
             name: "pythonA-xxlimited",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA-xxlimited.xcframework.zip",
-            checksum: "cddd7f8a5a4c3633854a4be38e8dbe8d8497352beb3d689e7438725260b2e927"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA-xxlimited.xcframework.zip",
+            checksum: "c470442b35661a118189c2113695688907c23aff1cb18c4d8c0d09f1854cc659"
         ), 
         .binaryTarget(
             name: "pythonA",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonA.xcframework.zip",
-            checksum: "cb555c8c037d0564715b9e1c8459df4fb34dccfa3e018e02f35c21ecfcee89b7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonA.xcframework.zip",
+            checksum: "475fdcbd8a394118a2b93d654a269b1ffeec238e5da517dd23608f66fa52b10b"
         ), 
         .binaryTarget(
             name: "pythonB-PIL_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-PIL_all.xcframework.zip",
-            checksum: "c7a28339d523741ba3a8e0aaacc250a6e4c7ffda5e3659c11a5d2949ec5e4118"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-PIL_all.xcframework.zip",
+            checksum: "c1336a1cb8077acac0eb5231553cc987dcc58e28aa8710d786e62293d54edcea"
         ), 
         .binaryTarget(
             name: "pythonB-_bz2",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_bz2.xcframework.zip",
-            checksum: "21f909b2f31ff1b6e434a651088086bdd17f407ffaf03a19b9f3ae3b3d261419"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_bz2.xcframework.zip",
+            checksum: "f120d6d2b179b19d684d2daf489a3f0a984421e6c7eca9e592226f8516248caf"
         ), 
         .binaryTarget(
             name: "pythonB-_cffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_cffi.xcframework.zip",
-            checksum: "46483254a0b7ec5992cb362521115a4ceb93fd5df4352d36aede53593c6733d6"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_cffi.xcframework.zip",
+            checksum: "5ac80a90ee33778660d4f1aa4d2e5f751801566f602d91c594f9d909f813a8e4"
         ), 
         .binaryTarget(
             name: "pythonB-_cffi_backend",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_cffi_backend.xcframework.zip",
-            checksum: "f69cd67e924783afdb92a503f486f22dc6d61b695cb12d8eea3dd3533d2ced4d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_cffi_backend.xcframework.zip",
+            checksum: "dc402f5e68ea04df378e96e0ced9655a8c66d9bd840e91d619f552575470a195"
         ), 
         .binaryTarget(
             name: "pythonB-_crypt",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_crypt.xcframework.zip",
-            checksum: "bd531aa69c6ce3fc13bdb9b9d7def4250106cfb8130ba61dadc96bba912d82cd"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_crypt.xcframework.zip",
+            checksum: "5f80c26f47c53ef29ae6a608937cd3d06c06205137aea09d7c6546de60284133"
         ), 
         .binaryTarget(
             name: "pythonB-_ctypes",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_ctypes.xcframework.zip",
-            checksum: "95857235f0c6e598aac4c9a4a5a66512ce18f928c30cb416749958f94fdc21e7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_ctypes.xcframework.zip",
+            checksum: "39e4e40321a41d0c0bb04effacad60abdedad4c6d61331171b8f1686ffefd7e6"
         ), 
         .binaryTarget(
             name: "pythonB-_ctypes_test",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_ctypes_test.xcframework.zip",
-            checksum: "7c083e3f9e1a904d7021503e32fdec046e2c6c3c5c0ee31bb6d6fb9d4574bf96"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_ctypes_test.xcframework.zip",
+            checksum: "79be7171cb97f77d348e6947427a2d392d0285d3f735d832ee494f6b923d5a6f"
         ), 
         .binaryTarget(
             name: "pythonB-_dbm",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_dbm.xcframework.zip",
-            checksum: "b863afbd76a08af4900e1abfb0adbf36c9c191364df771abb6f29b6acb354ba9"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_dbm.xcframework.zip",
+            checksum: "bca14c23d05316c8da6aeb57a1ec6606e43ce0e7896cfdb153d7036d20a67558"
         ), 
         .binaryTarget(
             name: "pythonB-_decimal",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_decimal.xcframework.zip",
-            checksum: "a773c370ead6b7fc0dfa2bf7e6a362cf495d8ff34e69ac0dd5f3eec5f6a74159"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_decimal.xcframework.zip",
+            checksum: "ddf380f9d070a3ae39c97d37521c2f5e97021e018f2f377372962d11097e60b3"
         ), 
         .binaryTarget(
             name: "pythonB-_hashlib",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_hashlib.xcframework.zip",
-            checksum: "ef80d41aa29f49d9a8b0b2819991b000d5ab505c8f680709ec287b2b6eb395ba"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_hashlib.xcframework.zip",
+            checksum: "e4df0fefbba2cd0cdd90469b1cb1f8901961dc6e0095fe21436c07a21d26d689"
         ), 
         .binaryTarget(
             name: "pythonB-_lsprof",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_lsprof.xcframework.zip",
-            checksum: "f1c1d143504f99af55489cdf1153c228fe63d9e729b7b4a913531892a3a60792"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_lsprof.xcframework.zip",
+            checksum: "30db75603f0654b06368fc309bd965b98a0d62f3e228309ef041190dc8b19a54"
         ), 
         .binaryTarget(
             name: "pythonB-_multiprocessing",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_multiprocessing.xcframework.zip",
-            checksum: "b0dbe112aaa52a10310860d244d9972fb965309694d0fe641c12dc225fc871d7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_multiprocessing.xcframework.zip",
+            checksum: "360d1ea6063e9af79a8b9e1c2206e0cd90b7a8106e8a602f468402133edc5406"
         ), 
         .binaryTarget(
             name: "pythonB-_opcode",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_opcode.xcframework.zip",
-            checksum: "b3b41827aab09ed975ad0db3b7303661fb6e98ba03594c078030ba0010e8b9e6"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_opcode.xcframework.zip",
+            checksum: "06e5d75756ba5356a8c82521e03bf99156d1ec40fba664b2f287e6795f23ca28"
         ), 
         .binaryTarget(
             name: "pythonB-_posixshmem",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_posixshmem.xcframework.zip",
-            checksum: "43909b8eb6223de4770e93ee33eeea8939a8b4c47392452f789e7025d22d4aa8"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_posixshmem.xcframework.zip",
+            checksum: "af581ee40698908aeea5e9b3d2c63624015c0cde20c1832044ce4b9163d3e4f8"
         ), 
         .binaryTarget(
             name: "pythonB-_queue",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_queue.xcframework.zip",
-            checksum: "16bab9b13cd3d98f6de38f3f6af7073f2de0640e6e33bfc1580d05b30a3c68c2"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_queue.xcframework.zip",
+            checksum: "2ad2d6060362e9dddeb485a334174ffa8c29f032a93fea169852b878bb8ace52"
         ), 
         .binaryTarget(
             name: "pythonB-_sqlite3",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_sqlite3.xcframework.zip",
-            checksum: "4df3a9f251412c18f8a9b18ccfe6c9dd8105f382f05b8d0fbd97b5d822a62885"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_sqlite3.xcframework.zip",
+            checksum: "950efb087343b1b67fc78f7b33f2929e483463b2ae59c12c1e5b703f66bd329b"
         ), 
         .binaryTarget(
             name: "pythonB-_ssl",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_ssl.xcframework.zip",
-            checksum: "ee3e84f20ae493b99279f8c8ecc4d2551e0a7db0e457316c5b0c5d5ce37183b8"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_ssl.xcframework.zip",
+            checksum: "b6575fabf8aec64dff4e776f49748642df568862fa5f98273a2f5b99dd52c370"
         ), 
         .binaryTarget(
             name: "pythonB-_testbuffer",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_testbuffer.xcframework.zip",
-            checksum: "5d7f85e51ccdde05b0226d087b81e77d0b39837cbd9dc46a6d812cbcb4cdc458"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_testbuffer.xcframework.zip",
+            checksum: "b3b9d498f009bc4c49fcd71761fd89282c456a613e4b783a1113628c9d5d3d12"
         ), 
         .binaryTarget(
             name: "pythonB-_testcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_testcapi.xcframework.zip",
-            checksum: "8480cd68ad1fc87c3677f665f38164f5f29ccd7ac377df92cf3699e66db48c12"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_testcapi.xcframework.zip",
+            checksum: "0e92664c411e1a2b4669728f8b81306e459bb3661adf426928bc108144ddeb18"
         ), 
         .binaryTarget(
             name: "pythonB-_testimportmultiple",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_testimportmultiple.xcframework.zip",
-            checksum: "663f6124ad3218f453c5f4b015b6400bd074cf556899783de70096ed798ffb64"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_testimportmultiple.xcframework.zip",
+            checksum: "47214bae61c66884d079bdc33724f91132e5b0ccb7e88f9bd1b18c6576b09538"
         ), 
         .binaryTarget(
             name: "pythonB-_testinternalcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_testinternalcapi.xcframework.zip",
-            checksum: "8769daa0dbf45eeced3827a183d4b73a0fe830fb551fad09b9f0cea2ba4177da"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_testinternalcapi.xcframework.zip",
+            checksum: "eda4cdbbc443a478f147bc515e4be9a81e15b1f2c40c92c3c639844f706157bd"
         ), 
         .binaryTarget(
             name: "pythonB-_testmultiphase",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_testmultiphase.xcframework.zip",
-            checksum: "d205e3e4ff2444551895f64db79e1322ba16ee302444fa92b64b99882479f82c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_testmultiphase.xcframework.zip",
+            checksum: "7b59e2553d095c6eba2ac30aa63332afc072ed788e8022ecd425a0f4c184562a"
         ), 
         .binaryTarget(
             name: "pythonB-_uuid",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_uuid.xcframework.zip",
-            checksum: "fe2d49ab4aaf30ed278dbbf70140a8d91c20271d5fc117b53b602c97a19cb854"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_uuid.xcframework.zip",
+            checksum: "c973b0be42fb37fe56f595c90bc512636cfb3dea1774a894f165317f2246a24a"
         ), 
         .binaryTarget(
             name: "pythonB-_xxsubinterpreters",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_xxsubinterpreters.xcframework.zip",
-            checksum: "e30606216db292e85c71f7edcc42aa3beaa4e40c5ba2da3f582d09c53ead0f0a"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_xxsubinterpreters.xcframework.zip",
+            checksum: "6c3f5b3c24eafb198be7a5bb3014f68ff8ff86e0c7d02460c6dd52df81bd7137"
         ), 
         .binaryTarget(
             name: "pythonB-_xxtestfuzz",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-_xxtestfuzz.xcframework.zip",
-            checksum: "b5c882d208a34d52d5e1d2f6d41b2e15182bfb68e01e69e5419213cf48c2ee57"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-_xxtestfuzz.xcframework.zip",
+            checksum: "b20c554d5a2d585dc7936701708f462cd6d23f06991980d87d91ae22c05c85eb"
         ), 
         .binaryTarget(
             name: "pythonB-argon2._ffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-argon2._ffi.xcframework.zip",
-            checksum: "351c6e49e7193552b1034f3708b88543b45eab080a551ea376cc4c59146a6cc3"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-argon2._ffi.xcframework.zip",
+            checksum: "386e71bd08575328b624965bc7e7e55fc7d4d047b8384141a3917f1d213c9f16"
         ), 
         .binaryTarget(
             name: "pythonB-kiwisolver",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-kiwisolver.xcframework.zip",
-            checksum: "ead842ea9f606fc6abe0ed1694e73b4f7422554ed961c727f0e65ebd9815bd4a"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-kiwisolver.xcframework.zip",
+            checksum: "398ba1ae781d13a187039ee0013803e28ca3447d25a8a66e179b02657b03acbc"
         ), 
         .binaryTarget(
             name: "pythonB-lxml_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-lxml_all.xcframework.zip",
-            checksum: "68bfc3b0d3c229aea859c410b1184dbaf3fb930d51841a6167c7c0bd96ba36db"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-lxml_all.xcframework.zip",
+            checksum: "c4790819e76aac3955e653999c445ce05a1e52d07773021e901961167cd505cf"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib._c_internal_utils",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib._c_internal_utils.xcframework.zip",
-            checksum: "3e6048ef2f23078a738135806d9a90bcee76c6fd10a4c37d3263d59cbafd5a66"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib._c_internal_utils.xcframework.zip",
+            checksum: "d864070632cb9a6e89f662b6d8792d2f3761e8f3a5aea1674ed3b3c3bbc0b0e9"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib._contour",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib._contour.xcframework.zip",
-            checksum: "512513d656e3e2f4619468c7138237eb9d085077b4b70c603cdd731560091248"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib._contour.xcframework.zip",
+            checksum: "3fcf554c01c7d5ba115ed6abfb6fe1a80c88bf0ab02ae2e289836b1bf38b309d"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib._image",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib._image.xcframework.zip",
-            checksum: "8c148c7e0657504f4f3251770cc4e91a139aeb9b269d1450c1c640b4ff5eee51"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib._image.xcframework.zip",
+            checksum: "5dbc01b15d6839c6b521f830d3116baeca8d609f260b109fdc9082bf73528cde"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib._path",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib._path.xcframework.zip",
-            checksum: "70cd1effbe93cbd6350faf2a5371b7dfddfe85e5a13f73714241b9950a8e90d9"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib._path.xcframework.zip",
+            checksum: "af14cc5854e245cf5acfbf18cccc46f63198abc0c2935f98a7607616b991cb4a"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib._qhull",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib._qhull.xcframework.zip",
-            checksum: "c68a8a06b9c8e5471e0f6de937721903276d7065ebff691a3cebef28cfdaf231"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib._qhull.xcframework.zip",
+            checksum: "9f8f5e21ba1c08fd61874c02389fc3cfb679997560b614fe4a6d8617fa57b916"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib._tri",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib._tri.xcframework.zip",
-            checksum: "e4f6cea1b0c24ea0a7abb9e72224f27ffbc5499555f3f1cd33a38fc8319e9d83"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib._tri.xcframework.zip",
+            checksum: "d5b0f41393d98b1566bc26156c1172bcb2ab529a7c1b6d8289d74760fb81c529"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib._ttconv",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib._ttconv.xcframework.zip",
-            checksum: "cb5f24bf4ef27b62cbab23e9f9a5e25f6b39ed719c1076863ddee21ea67e6d01"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib._ttconv.xcframework.zip",
+            checksum: "38cf8ab47ba84a34875d598211de71dced285eac08e868b8d42c1337d6cb6749"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib.backends._backend_agg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib.backends._backend_agg.xcframework.zip",
-            checksum: "1aa02aa35b3f808c48aad9cb06d688ee4dd7e37da702b998028fb7aacb2fa582"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib.backends._backend_agg.xcframework.zip",
+            checksum: "6be81170c4fcf6895ed61e8a1aaefeb1556d504016a0bd7e57a3b5bd1db8f1d2"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib.backends._tkagg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib.backends._tkagg.xcframework.zip",
-            checksum: "7c950f9c953deb2131ca5d8da9f3e9dae36e3eeea2f83e45e54b869eb5fe5e33"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib.backends._tkagg.xcframework.zip",
+            checksum: "54bb7ebe0a49c0efd2723e53460d8ed3a289c84c5ece84e5dee6c7682380f21c"
         ), 
         .binaryTarget(
             name: "pythonB-matplotlib.ft2font",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-matplotlib.ft2font.xcframework.zip",
-            checksum: "37d50d6f8901ede6c0d123666b0d09191f5ce7b2ca83d69bad58883e349e1807"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-matplotlib.ft2font.xcframework.zip",
+            checksum: "7062a8c2bff55af858d816b5929f33134d016214eab8ff14e11baa677bc09191"
         ), 
         .binaryTarget(
             name: "pythonB-numpy_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-numpy_all.xcframework.zip",
-            checksum: "a440d226b6ab4c5b22ac6859833343b923d549b039ee320fce48825b6994a2cc"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-numpy_all.xcframework.zip",
+            checksum: "dadb3c8fccf3a793d7f65370dea589cbc9fe625212994478a54fb8b613da2215"
         ), 
         .binaryTarget(
             name: "pythonB-syslog",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-syslog.xcframework.zip",
-            checksum: "abd4c4f412cabb68f09af59e96765a3fef3b7a35f525509d111ae90623e7fe39"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-syslog.xcframework.zip",
+            checksum: "e0f70014f4c6d4319daca9c302a5a6e53cfcca84fb95132b2c5cd732b12c50d6"
         ), 
         .binaryTarget(
             name: "pythonB-xxlimited",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB-xxlimited.xcframework.zip",
-            checksum: "d3a087e323814094b9d47e60a8dbfe8ed49f5fec33e7f624de41befcc7916096"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB-xxlimited.xcframework.zip",
+            checksum: "6f9d33f57dafe09910a31dda5712b03e50155a5bf0090e67eea4a5ab0e89685c"
         ), 
         .binaryTarget(
             name: "pythonB",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonB.xcframework.zip",
-            checksum: "5565e7340e58d039b3646f037b4c2aceeb1c24182b3a2366fa67cb770010c5e3"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonB.xcframework.zip",
+            checksum: "f3d7ba91138155c8cfceee83ddbb566d1348bdcd33611886aaa9710c1c85369e"
         ), 
         .binaryTarget(
             name: "pythonC-PIL_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-PIL_all.xcframework.zip",
-            checksum: "75aa869ecd9fb2604fa6a26d265dc24f94c3d038db7c31642e8dbff4cca43c4b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-PIL_all.xcframework.zip",
+            checksum: "76197b43ec1ff223ac451e134f3e117eb7e0ec0c4b81a9a79ebee1f83f97085c"
         ), 
         .binaryTarget(
             name: "pythonC-_bz2",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_bz2.xcframework.zip",
-            checksum: "0d309ce4ee3dd186282f1c5bab69796790efc68595f8b330fc547f21532190dc"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_bz2.xcframework.zip",
+            checksum: "59c94a44fb2fd9c7ac0bd3036fa3e98035e9cb4b2d5d06c9d743f18cdaaac798"
         ), 
         .binaryTarget(
             name: "pythonC-_cffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_cffi.xcframework.zip",
-            checksum: "e92a2594c414f1615224c689e0e2e13b93fedb38b6da9e8b421168d7a205748b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_cffi.xcframework.zip",
+            checksum: "c23bb1dbf7c720e8473d345012a1a67c07e0bab4a5ba27995adb4288c833a71a"
         ), 
         .binaryTarget(
             name: "pythonC-_cffi_backend",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_cffi_backend.xcframework.zip",
-            checksum: "92a3927e54470dddec73effd9f7021dd6b662abaa8d5999bde231ad5cd6ac288"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_cffi_backend.xcframework.zip",
+            checksum: "845067cab2db561b5b80f09a7c3499426ae1520bbad637523ea8adfe7f3dd423"
         ), 
         .binaryTarget(
             name: "pythonC-_crypt",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_crypt.xcframework.zip",
-            checksum: "d62c5df7c71793724da4e80beed13c78483790ae61e74d06115d26a927e1b05e"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_crypt.xcframework.zip",
+            checksum: "4bb0b8baff2186d0a57a2cb32dcc9e8358bded690bc168cb090dc8d2adb4f521"
         ), 
         .binaryTarget(
             name: "pythonC-_ctypes",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_ctypes.xcframework.zip",
-            checksum: "928810f92d378a33c08a333ec1bdd81bb7fc5c132ac8fb3a7c7c4e69cf478c6c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_ctypes.xcframework.zip",
+            checksum: "f6463e02ce5d7ec390ea7dfab08faea0ffa09854dae11ebd8b5753fc82770948"
         ), 
         .binaryTarget(
             name: "pythonC-_ctypes_test",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_ctypes_test.xcframework.zip",
-            checksum: "3d6bde91f3ebd5e20c0fb669476b8c490e6b7a3454bb6871e9e28b7acfe01556"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_ctypes_test.xcframework.zip",
+            checksum: "43dfd4f5c5a618f22d756b6cb93bcdcb9d1106d6cd51fe830542cd0b6927c739"
         ), 
         .binaryTarget(
             name: "pythonC-_dbm",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_dbm.xcframework.zip",
-            checksum: "0f428df765dee0b0e4d17c15fe037f8ad3a9a427ae9018208eed74d4cc35983f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_dbm.xcframework.zip",
+            checksum: "3266e2d6769274a87286f5be173660346b224c27ea0d95e0b56b68d5df276ab8"
         ), 
         .binaryTarget(
             name: "pythonC-_decimal",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_decimal.xcframework.zip",
-            checksum: "fb4848f1fd80f9ef8973ce9a9a22f51f73ce7956ca3e30570b8231a7497685ca"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_decimal.xcframework.zip",
+            checksum: "45c4b1b6b0641d64430197c43576504c036db59a3552d91fbdb875111aafcba6"
         ), 
         .binaryTarget(
             name: "pythonC-_hashlib",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_hashlib.xcframework.zip",
-            checksum: "72ef647345e1d891df8cb0b42711683fcb5baac998acc4e614cffdeb12a1f76f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_hashlib.xcframework.zip",
+            checksum: "a8d6967f4201460f59d0ad49306667e908868d6e0c186ece28a56c55e384a57c"
         ), 
         .binaryTarget(
             name: "pythonC-_lsprof",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_lsprof.xcframework.zip",
-            checksum: "e15a13a2eabaa66133e097dda60092ac119d2c15d53cadd0c53d11bd8d9c2758"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_lsprof.xcframework.zip",
+            checksum: "58832e6eae54a87fe4fd5055443616a3e3559128cc83926051a6dced582dcea8"
         ), 
         .binaryTarget(
             name: "pythonC-_multiprocessing",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_multiprocessing.xcframework.zip",
-            checksum: "640c0fed3944b437815ca44f368e3f9852e2ba9102893f0c6c97b77c00287c17"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_multiprocessing.xcframework.zip",
+            checksum: "d6ea5018d4c510fd278b55ef8dbb49cbcd95434801d39d78f6ed2a381925ec53"
         ), 
         .binaryTarget(
             name: "pythonC-_opcode",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_opcode.xcframework.zip",
-            checksum: "d1b32122c6cc7fd69b9f04051b4bf8b5d650e6fd2df9f41e08058c0eb7a374e0"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_opcode.xcframework.zip",
+            checksum: "4ceec000151b31bb345b37ebbf32a83220e8513cb48b8af8555396d2d60b83a0"
         ), 
         .binaryTarget(
             name: "pythonC-_posixshmem",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_posixshmem.xcframework.zip",
-            checksum: "dea15ff0cc88513c37c1b9ec6c3d307702d6bcf240557fd49092c76103690d9f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_posixshmem.xcframework.zip",
+            checksum: "6d48d20933f28618096d01b2c6ed5836b201fa02504594a6acfdff2c1e5d0a8d"
         ), 
         .binaryTarget(
             name: "pythonC-_queue",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_queue.xcframework.zip",
-            checksum: "0f1e88081730710406e5cc10371a6844507120efb776031b9d4c8eece89788e7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_queue.xcframework.zip",
+            checksum: "b6cecf0bad0aa1059821e269b917044f0fcb52da1937c89b78ec1b6413c43d95"
         ), 
         .binaryTarget(
             name: "pythonC-_sqlite3",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_sqlite3.xcframework.zip",
-            checksum: "5cf2fc818cb2073f28f4c11fe5c80a052f9a30d1379d9a63c155b57e03e28966"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_sqlite3.xcframework.zip",
+            checksum: "207e25be2d8769e6e844d35ce2c390d1bb82cbdab62338043a6d033651784214"
         ), 
         .binaryTarget(
             name: "pythonC-_ssl",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_ssl.xcframework.zip",
-            checksum: "4aec50dee51295a4e4faec9cb0743929be21b1d47cae620e2be0f4c8b238fabd"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_ssl.xcframework.zip",
+            checksum: "760a23f287ab3b2f31951f7f1a1966a64d4289edd601a38d4d7f0ee287f1769e"
         ), 
         .binaryTarget(
             name: "pythonC-_testbuffer",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_testbuffer.xcframework.zip",
-            checksum: "e0c235a83f0db8933a363b0bec58b78c4fd3fe266a9705417ace7f36c2fe6cfd"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_testbuffer.xcframework.zip",
+            checksum: "90f4d4a53a4c86d56395afe5c30b957492f26e8ee0c2c5d283d1c2b1854a1094"
         ), 
         .binaryTarget(
             name: "pythonC-_testcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_testcapi.xcframework.zip",
-            checksum: "f32a687d3c585a6aed293b76e42bfe4db9bf6e25eb1fb2d9bf90dcd75398cf34"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_testcapi.xcframework.zip",
+            checksum: "88c7a067bfe9a5e4bc9fb0d7b229d8afd9b18d6e1185001f57ab79363c983dfc"
         ), 
         .binaryTarget(
             name: "pythonC-_testimportmultiple",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_testimportmultiple.xcframework.zip",
-            checksum: "eb1aa7c7c294e43a6ef53508a6497eb15b27befb0f53276608a6656501ca084c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_testimportmultiple.xcframework.zip",
+            checksum: "95f6230468813e870176b4fa85aaaf51da9fbe7e8bf0afb60917c9af0400ecc9"
         ), 
         .binaryTarget(
             name: "pythonC-_testinternalcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_testinternalcapi.xcframework.zip",
-            checksum: "901f70838277c646800887e4e0b4471b5cc686432d1a823055f9fddc11f19e3c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_testinternalcapi.xcframework.zip",
+            checksum: "a5110f1f83f3ffe47bfe9ae58f7068f676affc7559625add72e3fb8627888804"
         ), 
         .binaryTarget(
             name: "pythonC-_testmultiphase",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_testmultiphase.xcframework.zip",
-            checksum: "75d91ed5b2ddae4184161f71ac9c7ffd125b476f40a4557ed49298139991b4c3"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_testmultiphase.xcframework.zip",
+            checksum: "ecb2f1f223e83a108eab262dc3fc359374b176f979449e3916ce2624c0cb842a"
         ), 
         .binaryTarget(
             name: "pythonC-_uuid",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_uuid.xcframework.zip",
-            checksum: "aaa1ad0e2a28ac2543e55e2d8478acff90e9846b6ce70fdfda6468c91a41950b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_uuid.xcframework.zip",
+            checksum: "733c8af6208decd0da8b77bdab053c29b27b1766e3b20a44a07f97c0251ebe45"
         ), 
         .binaryTarget(
             name: "pythonC-_xxsubinterpreters",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_xxsubinterpreters.xcframework.zip",
-            checksum: "f830b0e1876807e11cf7c58ec04ca07153c67b9307422f0e8cf5cdfba82769e0"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_xxsubinterpreters.xcframework.zip",
+            checksum: "b583ed0f96b1f90de9c05545cca18742d2e61cbf0b2490b0dfd1f01fc44fed57"
         ), 
         .binaryTarget(
             name: "pythonC-_xxtestfuzz",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-_xxtestfuzz.xcframework.zip",
-            checksum: "d595a9be023bd82523f6c12bc1a715f08c92fdba5b7429fc93d0a1a119b2f5d0"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-_xxtestfuzz.xcframework.zip",
+            checksum: "9098d71da92879d9b33d74568d5ca1fc65f884c763a832374e85d915eeb53c52"
         ), 
         .binaryTarget(
             name: "pythonC-argon2._ffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-argon2._ffi.xcframework.zip",
-            checksum: "ed292c4a0331d2fcefc0270619406d11c5932ef215a2a63be64e5b715a78e4d7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-argon2._ffi.xcframework.zip",
+            checksum: "acf2d2abcd5c4f7386e3bd784de9c88380ab97815876e7494d9c862c60897221"
         ), 
         .binaryTarget(
             name: "pythonC-kiwisolver",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-kiwisolver.xcframework.zip",
-            checksum: "44dc601a98a17e0275c0bc922b0a178ee8ec180b4ffb993c7449b4e41e552eea"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-kiwisolver.xcframework.zip",
+            checksum: "d995842e81abf601a545a8ef0ff5c7ec4603035555812d41c95defa67a73d824"
         ), 
         .binaryTarget(
             name: "pythonC-lxml_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-lxml_all.xcframework.zip",
-            checksum: "8b80e7fd94fa73f9077841a86c201d15cba72ad0abc283650cfa56e4538a173d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-lxml_all.xcframework.zip",
+            checksum: "bc1360b872e6faf944f07a187bd0662849064ec1baebccc0e532c412f16f9306"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib._c_internal_utils",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib._c_internal_utils.xcframework.zip",
-            checksum: "a16f580be3774c53d36fea7110a3b069e7a39a2113617b01be311686f338359a"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib._c_internal_utils.xcframework.zip",
+            checksum: "cba89b1c82cb278f3f8d3fb91da5ebfd1ea1bfb413b4ec24d6a189dbe69f6fbe"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib._contour",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib._contour.xcframework.zip",
-            checksum: "7ed028e1cc3a9a37358f506da28b1659be1216608231bf0d17b722a95bf20c99"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib._contour.xcframework.zip",
+            checksum: "134b95dfe0803dac03076f7400f2a95830203d16eec5fbd4c62545677d81dead"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib._image",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib._image.xcframework.zip",
-            checksum: "5fc815d0e9f2244504a69249514f2682f86b2ff13780b69cf48d7499473863c5"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib._image.xcframework.zip",
+            checksum: "5c780e1aced7aadd9c7a31b6ade84614f3e6359856d6b03197ee9b0c166a1e7c"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib._path",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib._path.xcframework.zip",
-            checksum: "a50ca4528891a722e27eae11cf970757a6f2f1baca645ec1073b93ce8ea3c6f2"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib._path.xcframework.zip",
+            checksum: "b2f8e9f440bfcc1d1814cde746b2bb4178513bb86728e631982c97fa1fbae59b"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib._qhull",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib._qhull.xcframework.zip",
-            checksum: "0ec3ef7cc226e3a4a55c0f9ab07a7da7c8065a232384e6ec46705568067c78fc"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib._qhull.xcframework.zip",
+            checksum: "6190e9397427dac8672899b4622e23b1232c57aa27f848926ab425758f76fa79"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib._tri",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib._tri.xcframework.zip",
-            checksum: "23603a05d0e62ab9edc454e07c218343a0791a0e95f6b5e5da84a57d300bd735"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib._tri.xcframework.zip",
+            checksum: "62069e4edcf788c4fc5a0f8ff87758db97da688ccea5504aca81be6b51857f8b"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib._ttconv",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib._ttconv.xcframework.zip",
-            checksum: "cd7afc5e32203d1a641d1724146555cb53058fa1301d5ad473332c104da2b195"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib._ttconv.xcframework.zip",
+            checksum: "929aca9ec91d72e164b07e315278382d723bf134490d5bf16e9e0cda190227a1"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib.backends._backend_agg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib.backends._backend_agg.xcframework.zip",
-            checksum: "a1fa30d0488badb0a8a3ea7c4a65c431af520a399396f277671a818be6817020"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib.backends._backend_agg.xcframework.zip",
+            checksum: "48fc347f5fee3cfa37d4f231715283318cad89062b69ad857f7cfba13d0a6581"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib.backends._tkagg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib.backends._tkagg.xcframework.zip",
-            checksum: "66f40eead7e10f79947d114cc4f66f6e93d2c007bca24c57fbf45b093ef8c77f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib.backends._tkagg.xcframework.zip",
+            checksum: "378184090bcc971a7965d8f9773018d5142b5a7df10a0890880aa506091c9725"
         ), 
         .binaryTarget(
             name: "pythonC-matplotlib.ft2font",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-matplotlib.ft2font.xcframework.zip",
-            checksum: "e0d9039213fdf654fec2336693f41b78d4e14bd866c431b14dba7325c533b737"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-matplotlib.ft2font.xcframework.zip",
+            checksum: "c8aef2b6672b15b42a473a3e8ad9ed2b86e47551e1d9915b5dc5596982768b79"
         ), 
         .binaryTarget(
             name: "pythonC-numpy_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-numpy_all.xcframework.zip",
-            checksum: "84f97950372c3403d9e065e044efef9a22bea36e80d2c5e91fea2ef515290281"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-numpy_all.xcframework.zip",
+            checksum: "8a246b10aa340d31818c7a4355e296a2a07a5fc0f726a330f018be0feb12573a"
         ), 
         .binaryTarget(
             name: "pythonC-syslog",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-syslog.xcframework.zip",
-            checksum: "ec78b7f72c6ec3c92a4169a6be8e248621242e06be657f81708af97551a3cabb"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-syslog.xcframework.zip",
+            checksum: "880205d68ede2ee3f67dd9a6aa428edc0fc4e985539d4f8148d210648dfbb125"
         ), 
         .binaryTarget(
             name: "pythonC-xxlimited",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC-xxlimited.xcframework.zip",
-            checksum: "f608485ed3a26e7b375b035235f37f65e6d3a5885c8f1659fa5b4771f8780104"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC-xxlimited.xcframework.zip",
+            checksum: "7638f5733f6216c67719c6f36d65dc5262b0ceabe128d018d6b2875be58777e3"
         ), 
         .binaryTarget(
             name: "pythonC",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonC.xcframework.zip",
-            checksum: "929bc117a43136a450c47b5e88290fe458c5eb63eb42cf7e8873fc96f07deed4"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonC.xcframework.zip",
+            checksum: "c5db5f1c5f813e8e2da5c4a0a865c07a7ececd8d54bf8c45360edbf40f04a6fd"
         ), 
         .binaryTarget(
             name: "pythonD-PIL_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-PIL_all.xcframework.zip",
-            checksum: "4445e2cc8f9e01eb7c10903265c0455b32009546e8f6d34caeeb85986b472e1f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-PIL_all.xcframework.zip",
+            checksum: "5852e1a31f30bd12e73779570a049d356568ddb0a2630243b0853c0e0ff5e181"
         ), 
         .binaryTarget(
             name: "pythonD-_bz2",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_bz2.xcframework.zip",
-            checksum: "ab59c1cb6396b3e8343e60c83713224d4391cb04a833a53d19ece722bb643f84"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_bz2.xcframework.zip",
+            checksum: "23ac9631b8bd1c526885684f0b2c076d8fda1f08cac463b407d1fe56b464bb74"
         ), 
         .binaryTarget(
             name: "pythonD-_cffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_cffi.xcframework.zip",
-            checksum: "4a4b3a176b364c53304749528e5c54cc70448ec7c4e6aa7474625001bad3e155"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_cffi.xcframework.zip",
+            checksum: "4b9751add8fb3ee9d9cfe0d3b12764963723f46c1848713bd2c94acb2d6c9d11"
         ), 
         .binaryTarget(
             name: "pythonD-_cffi_backend",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_cffi_backend.xcframework.zip",
-            checksum: "bed0d8c9602a14d016bd0780834e89a8f8ee873c35c53dff043f29f2ab0a8643"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_cffi_backend.xcframework.zip",
+            checksum: "e1c3a7d5e1f5e5ad7cf4f90d3d1c0c69e2002c2852a2cecd4e39bf4a07daba3d"
         ), 
         .binaryTarget(
             name: "pythonD-_crypt",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_crypt.xcframework.zip",
-            checksum: "6db2f680e242bbc5f7b5b9ec91fcfc581c5b19701c12436b2c59594b08844943"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_crypt.xcframework.zip",
+            checksum: "c1277534952338198b1f19a3de28c1338263b02864e40ae078a212e7405fc363"
         ), 
         .binaryTarget(
             name: "pythonD-_ctypes",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_ctypes.xcframework.zip",
-            checksum: "aa7f1e6a268bcbf70df3a41792fb613aaeef2d26587c5b0325103c643815bea8"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_ctypes.xcframework.zip",
+            checksum: "a455607e0dedbc4e8066c1c54725a68dddf99a7701c05a07ea2e893bb5ac3c23"
         ), 
         .binaryTarget(
             name: "pythonD-_ctypes_test",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_ctypes_test.xcframework.zip",
-            checksum: "be6e422850eff5eac8555e367d8651b5d3035befd1c478ef1c0ee2c7b22ff079"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_ctypes_test.xcframework.zip",
+            checksum: "ab2b7d8726fac0ad81ac33f0c689d4e7ddc854ab3079229ac3153cd7612d6943"
         ), 
         .binaryTarget(
             name: "pythonD-_dbm",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_dbm.xcframework.zip",
-            checksum: "c2b188d0014038362e4564e529a71ece2b0334e5c0c3ddfae356b90882f6e04f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_dbm.xcframework.zip",
+            checksum: "be9e2ad108da5e817674edc01e766b0787f37fd9ae88610250fdda278086c86e"
         ), 
         .binaryTarget(
             name: "pythonD-_decimal",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_decimal.xcframework.zip",
-            checksum: "687a4138e6ecb2fa0b8f2d713f258e2b841e4cb12a675322603e40c71f7d1343"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_decimal.xcframework.zip",
+            checksum: "b661b683c7303d35a515893f724b0c597bdaabc42d507229d1be8e3ecc962514"
         ), 
         .binaryTarget(
             name: "pythonD-_hashlib",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_hashlib.xcframework.zip",
-            checksum: "58c2098dd992a777b48dbaaf6f12511cee8101f60a30bd1cd656fa31147822d7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_hashlib.xcframework.zip",
+            checksum: "608d46845c4c9c9d5dae2d08cddf1db68d888b3759ac9d231512354cce0d3993"
         ), 
         .binaryTarget(
             name: "pythonD-_lsprof",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_lsprof.xcframework.zip",
-            checksum: "67dd28422eeef36375613422cdd934817dfb17f87d71c89df4998535a8ed9071"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_lsprof.xcframework.zip",
+            checksum: "2b7222bf083412223fd71aeba3b18bdb064afdc9278fa7532c429df2f85fc887"
         ), 
         .binaryTarget(
             name: "pythonD-_multiprocessing",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_multiprocessing.xcframework.zip",
-            checksum: "11688f56817579cbb9cafc8b28215a1ee7300570bb4e9fac2742b1e2a85d84f2"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_multiprocessing.xcframework.zip",
+            checksum: "712559059bf76b038682015c84160e17968a4f868e044f74094fd08d8c4451a1"
         ), 
         .binaryTarget(
             name: "pythonD-_opcode",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_opcode.xcframework.zip",
-            checksum: "10f69bcc566c724f92c5f4d934cb2da6752fd3e7cf8cb3defc19af5034c91b4b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_opcode.xcframework.zip",
+            checksum: "26ac38be3d319332c2ace2b67edc0abe6abeacf8dcd07443ee30731d4cbcd443"
         ), 
         .binaryTarget(
             name: "pythonD-_posixshmem",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_posixshmem.xcframework.zip",
-            checksum: "790d55310b544427cb6916d2ae857107d2e07e67bc788eaea75e9807e038ed14"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_posixshmem.xcframework.zip",
+            checksum: "f9d3ab8f48a2352d6d60fab1f7a9309721372f3b4e6829df63f044a84b6888cc"
         ), 
         .binaryTarget(
             name: "pythonD-_queue",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_queue.xcframework.zip",
-            checksum: "93df0a81d625798527e9b75d94b2b469c415683457f1c0a978fd48e211965150"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_queue.xcframework.zip",
+            checksum: "d86a3a7d667cb699b6500052fc424a7a64139a740c6e926810aaf9e8d9d0b336"
         ), 
         .binaryTarget(
             name: "pythonD-_sqlite3",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_sqlite3.xcframework.zip",
-            checksum: "95d637fdc7424f88eb9343545818d8f5d6bdb9f6b9145122257f966d526eeb1a"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_sqlite3.xcframework.zip",
+            checksum: "a426b00d9263fd3b265d3980fe21f9006748e2772282327b5e0fa13e4b905890"
         ), 
         .binaryTarget(
             name: "pythonD-_ssl",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_ssl.xcframework.zip",
-            checksum: "2c84bf1c9fa4fb4645614b5f33b4b2e08f8e57d8c0e34d51e7e81fb4f17f0f9f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_ssl.xcframework.zip",
+            checksum: "35557632c1f769cadb3cee9548f2a3ccccf48b4fe793e68af0eca112be61ccbe"
         ), 
         .binaryTarget(
             name: "pythonD-_testbuffer",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_testbuffer.xcframework.zip",
-            checksum: "7f7f0809b7dd78dfee0b9061a823eeeca63661a3a93839a2f41caa0a9312b7f6"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_testbuffer.xcframework.zip",
+            checksum: "6569b2e078e063d555797e5cc1d6220cdbeee0d5b14c291a4404c3c76acb71a0"
         ), 
         .binaryTarget(
             name: "pythonD-_testcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_testcapi.xcframework.zip",
-            checksum: "0967acdd8c0f33b8cd0bbb62e4ca0f4301e02e749c0ebabd3b027cc50e0ffedb"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_testcapi.xcframework.zip",
+            checksum: "9d3346c851c1c0ccc75069f0e112782bebe37b5bdda8aa11b2c69b10e9f472ea"
         ), 
         .binaryTarget(
             name: "pythonD-_testimportmultiple",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_testimportmultiple.xcframework.zip",
-            checksum: "58087406a9f097690d07b5ee29452dcc2b695a9335c5f1a7789a5571a691bd02"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_testimportmultiple.xcframework.zip",
+            checksum: "859f7553060a0a36587aee20cef20f7b1bbf3a0135e5578878ad183ffc24b622"
         ), 
         .binaryTarget(
             name: "pythonD-_testinternalcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_testinternalcapi.xcframework.zip",
-            checksum: "3caadc61cd353007d3343240f5c247516daf93b6615d0926504539a4c3d3928f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_testinternalcapi.xcframework.zip",
+            checksum: "e925c486cb8981b77241420e8bdbba940baf7585d84e1457ca729760c8ccfc19"
         ), 
         .binaryTarget(
             name: "pythonD-_testmultiphase",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_testmultiphase.xcframework.zip",
-            checksum: "de2ae3a0bc4d637efaf51421c6bb423606fb1e69e9b68543390f40c613ca1ce7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_testmultiphase.xcframework.zip",
+            checksum: "03a51f2377065f64458401fbad928c63b690b2b5c10980a3e00923a5f003b0da"
         ), 
         .binaryTarget(
             name: "pythonD-_uuid",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_uuid.xcframework.zip",
-            checksum: "b4e961630f918eb3d2618671be3905c484c6112d0db5bb0cdba4797cb3afbe4c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_uuid.xcframework.zip",
+            checksum: "2e369b110f19342094512bf65c7178dcc63460b1485693def49b61a74705c779"
         ), 
         .binaryTarget(
             name: "pythonD-_xxsubinterpreters",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_xxsubinterpreters.xcframework.zip",
-            checksum: "63c46b13256dea107c3cf453f3030b23e68dbdcf36415768961958ad0725aa18"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_xxsubinterpreters.xcframework.zip",
+            checksum: "c7e33b803b5c36d245745011cb5b7c72a8cf5a400cd0cde35a1749fa47cbad75"
         ), 
         .binaryTarget(
             name: "pythonD-_xxtestfuzz",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-_xxtestfuzz.xcframework.zip",
-            checksum: "0eedd873534f3082140f8a1f6a0d566bbfa846b2a0ac91b994a44505f6c3198b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-_xxtestfuzz.xcframework.zip",
+            checksum: "1afb992d5b0597128e4f9b00c88b68b5a8222b69fca1a2d5f25ef74cd0be95dd"
         ), 
         .binaryTarget(
             name: "pythonD-argon2._ffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-argon2._ffi.xcframework.zip",
-            checksum: "e2cda517f0d81f29a946591595801ce08c048ad7b4cd231df8d78f85a4b70902"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-argon2._ffi.xcframework.zip",
+            checksum: "ddd3d8b64364354daa40a500ca1f4b0797daac6516d4fcede8e98b6e9487c218"
         ), 
         .binaryTarget(
             name: "pythonD-kiwisolver",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-kiwisolver.xcframework.zip",
-            checksum: "cf3f4608bb3780d9cb4926a61b8452935ea12f58a53462ff237cf643d7a07190"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-kiwisolver.xcframework.zip",
+            checksum: "8ee6eb395765cb684b4a63f0aca50c9b209f1b9f6556205fd6b1e0e967e62aad"
         ), 
         .binaryTarget(
             name: "pythonD-lxml_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-lxml_all.xcframework.zip",
-            checksum: "23ef7b1e593704d04bb7dd48612b276bce8cc709f64bf7302474be6e3dd605a6"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-lxml_all.xcframework.zip",
+            checksum: "e3c5c842bc8a7a33647850ad33f9327eb86e30c319bd6a1042e2065496c938a6"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib._c_internal_utils",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib._c_internal_utils.xcframework.zip",
-            checksum: "b2e8fba48997468f9b2cc3ff98fc5e119712ec4f9c95dfda5a193875e6581dbc"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib._c_internal_utils.xcframework.zip",
+            checksum: "e043685713eca4fc3224bc82aad837f1f079890ad331e3eb662cc9c9ebb38392"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib._contour",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib._contour.xcframework.zip",
-            checksum: "0b114dfe34f6fc5e0ea43b128abbd2673706bf473f0d228b33384584f5f6975a"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib._contour.xcframework.zip",
+            checksum: "4e3bdb0e924d8f933c42579362fd6977bf8991a674dd1b81dfbb5e1469c19ceb"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib._image",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib._image.xcframework.zip",
-            checksum: "03a5a20e9ed498be6fa12f69827b83172af9f570930d009cff0ef3199e8b1e65"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib._image.xcframework.zip",
+            checksum: "9c5193becc8d2f0d954ed2f2e26371b86c8efb408c25908a9cac97216f44438b"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib._path",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib._path.xcframework.zip",
-            checksum: "547fe100edb5d7c91deb5d2dda49b2218a898753f7c3741930c2b62c673b58c6"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib._path.xcframework.zip",
+            checksum: "049e7d4af771aa47e1fa0e881cae196a0fdd7dd3e9f3b43c177825f3f0b18299"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib._qhull",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib._qhull.xcframework.zip",
-            checksum: "947abd12189a1435819c971af4ecad854b63a0ebbd9879033da8199f53824fd5"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib._qhull.xcframework.zip",
+            checksum: "97b205664bc5498a92a64c185b10130fcda245a6d75eee0f4502282645cb398f"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib._tri",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib._tri.xcframework.zip",
-            checksum: "aea3daa9185433d9953a4d306b16bdfa1f6680d4d6258bc5289ddc672cbb941b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib._tri.xcframework.zip",
+            checksum: "8202349845b806c34fad6da8e813a7a29340c308a6cc89721ed94c21d1fc16ea"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib._ttconv",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib._ttconv.xcframework.zip",
-            checksum: "f0ab6498e445d77c69aa2eee723183531b3887786738cb221d565989636104ec"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib._ttconv.xcframework.zip",
+            checksum: "94d3a744dde7ce57384e51fbdca47e17439fcb17f1cd1a92a542db7f13d2031e"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib.backends._backend_agg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib.backends._backend_agg.xcframework.zip",
-            checksum: "6e90b36e752fa603a6bd9c989808ba5fe597b252b6cfb98522f3a8c5fa1576e5"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib.backends._backend_agg.xcframework.zip",
+            checksum: "aaf53a5f3e17cbef1afbefb336e5127f9c3e8fc6d5b75d6e819c0c7c052b65fb"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib.backends._tkagg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib.backends._tkagg.xcframework.zip",
-            checksum: "a163dbb79bf801993c61326af8c9e94834ec396749d84128874b06ee7ba15488"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib.backends._tkagg.xcframework.zip",
+            checksum: "53996669b8c4547e0a0211af9ce14c053b9c6ef25f13864be16701aeca2373e6"
         ), 
         .binaryTarget(
             name: "pythonD-matplotlib.ft2font",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-matplotlib.ft2font.xcframework.zip",
-            checksum: "15cd2663917e99b53a14aa531689e50e05345b913f87dce18cc3eb890c6db56e"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-matplotlib.ft2font.xcframework.zip",
+            checksum: "500c81eeb18b26a8f13eb69b4af930a71b56297b2549d54a941ef6249e7c8eb4"
         ), 
         .binaryTarget(
             name: "pythonD-numpy_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-numpy_all.xcframework.zip",
-            checksum: "b7e6f6025da1c8c2480f184a6dc7b2895444ac46cc1fafe820663330dddac3a2"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-numpy_all.xcframework.zip",
+            checksum: "4905a3138d1b9be03c99d45e6bca627e9e5faa7e07f5d5ebd33f61c4441e4894"
         ), 
         .binaryTarget(
             name: "pythonD-syslog",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-syslog.xcframework.zip",
-            checksum: "fd2a2b797aa6870355cd97560345f0698dcc4f5932ce1f6ef97b14ddb26bb53b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-syslog.xcframework.zip",
+            checksum: "d49aa16be1d5b2f3193d6c6bda1451fd9408f5693e8ef1de0bb46b0ac96f2d69"
         ), 
         .binaryTarget(
             name: "pythonD-xxlimited",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD-xxlimited.xcframework.zip",
-            checksum: "cb8a5b6bf3ddfdf35d2b4a30e74b71a69cfff0f4630db9a028790dcb785349c4"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD-xxlimited.xcframework.zip",
+            checksum: "e27afc6aaa965e4b970beb1869910d19b3049d2c7ef25159d952280e12f341f5"
         ), 
         .binaryTarget(
             name: "pythonD",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonD.xcframework.zip",
-            checksum: "b8fa3415871e056009be6680df14f1f268183e20bd3187b41e9e3927d6512b47"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonD.xcframework.zip",
+            checksum: "ce534de6da75e5948743ce8c917c97d35133ea5d2ee69ce54c3e55d444659c7f"
         ), 
         .binaryTarget(
             name: "pythonE-PIL_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-PIL_all.xcframework.zip",
-            checksum: "76f6c2b5d7eba48c380000f24df4f3bfd0e0e2b93e804ffecc5cf75d9d050c42"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-PIL_all.xcframework.zip",
+            checksum: "536c4d95587b915db636dd3c78d44bb7894921444ebc064dc82bdadd0df269de"
         ), 
         .binaryTarget(
             name: "pythonE-_bz2",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_bz2.xcframework.zip",
-            checksum: "abd385ff3f24058f14116f1476f35d86150cc615c202a6de807430573f5a4a2e"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_bz2.xcframework.zip",
+            checksum: "9dd02c2f16b538e0d2a4d5eb15d1dd90346ba4ae5e75ab2383afbdde510e969c"
         ), 
         .binaryTarget(
             name: "pythonE-_cffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_cffi.xcframework.zip",
-            checksum: "ec20f88c0072005bd6c007a4b5a39c99362aaddfdd735fa79ecd77cb233234f1"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_cffi.xcframework.zip",
+            checksum: "44266536357f570c30c2cad99916202949a5a071e5840aba5001a54bae183881"
         ), 
         .binaryTarget(
             name: "pythonE-_cffi_backend",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_cffi_backend.xcframework.zip",
-            checksum: "fed4dbbd73c2ab5bcbd29d1283a145911ca5ec7c565954b76ed837543d7f0f51"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_cffi_backend.xcframework.zip",
+            checksum: "23ba3ca4569ab38df0b2884ed8fb642ff5965ee718564ed08f5771d2d134a3dc"
         ), 
         .binaryTarget(
             name: "pythonE-_crypt",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_crypt.xcframework.zip",
-            checksum: "bbe2349019b7ab93a4eca6f2a8d53a1b8e8093a801f29c317576beae6b7c1421"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_crypt.xcframework.zip",
+            checksum: "60761a64922ad1c0fbda0fec713d74416260fb3b579163b8f915af0af2f3a9d2"
         ), 
         .binaryTarget(
             name: "pythonE-_ctypes",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_ctypes.xcframework.zip",
-            checksum: "6eaad8161ef961d77040de53bd2c81b9bf220fb26079556c9e65a5ca134c250f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_ctypes.xcframework.zip",
+            checksum: "a9718723275840e69ef36826d80be46abb0f6dba149ab92431984e2ce245b411"
         ), 
         .binaryTarget(
             name: "pythonE-_ctypes_test",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_ctypes_test.xcframework.zip",
-            checksum: "c468b58d5d5affacbc8da75f3645a7b6402ebd2c5cc18511bb559cb2036bb1f9"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_ctypes_test.xcframework.zip",
+            checksum: "3cbabfaf6dc864efdec357e241eae6768267c20b29b0fb8daf0fc78a677235af"
         ), 
         .binaryTarget(
             name: "pythonE-_dbm",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_dbm.xcframework.zip",
-            checksum: "e3d78a90872e8baf614220a19a3a10283f6e9779f89ba7d666add30d76893156"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_dbm.xcframework.zip",
+            checksum: "618524959223d99e6ecc96763ccb8d26edf0f3b7b7a6151a52e592f3bca77bc8"
         ), 
         .binaryTarget(
             name: "pythonE-_decimal",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_decimal.xcframework.zip",
-            checksum: "605fbcf1946732d3f8f4995eeea6699cfc1a645ecebc2849a08461670b22e54d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_decimal.xcframework.zip",
+            checksum: "abcd036eb4a9d3bcaaf0838f9e64b48909a1292067153829cede92d64571ce83"
         ), 
         .binaryTarget(
             name: "pythonE-_hashlib",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_hashlib.xcframework.zip",
-            checksum: "a08d6bf34478e3b74c9763ffd11023f6de51ace5003d6a7d719769b4d539a581"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_hashlib.xcframework.zip",
+            checksum: "cafd1d880bf2cbf9924e658aca096db075fdacadfd39c9336fab616198497df3"
         ), 
         .binaryTarget(
             name: "pythonE-_lsprof",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_lsprof.xcframework.zip",
-            checksum: "80232f673717d4b80257a417bd5df6b042af11a94b5ec1923ef35efeaf5930f1"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_lsprof.xcframework.zip",
+            checksum: "40510dad0ee4b7d46560a7099cbca7cfade9b414b9b70cb5aeb515a1edc87ddd"
         ), 
         .binaryTarget(
             name: "pythonE-_multiprocessing",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_multiprocessing.xcframework.zip",
-            checksum: "1c5931d14aa92f23149408594c640bba1c1d8ae2900d12650f18e71f3baf5695"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_multiprocessing.xcframework.zip",
+            checksum: "4c8fe93989af771ec60f88becbe24951f845b653b11b38b9baf29fb719a3fe85"
         ), 
         .binaryTarget(
             name: "pythonE-_opcode",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_opcode.xcframework.zip",
-            checksum: "5b9015d5435fd9df0e546dc83eb48f2eb76b7f75654a92c66528e54d81f1caae"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_opcode.xcframework.zip",
+            checksum: "9289fd2adeb5584da2bcdd5762de951b1ab1ce9be8ea6344c24b581cd35ff1b9"
         ), 
         .binaryTarget(
             name: "pythonE-_posixshmem",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_posixshmem.xcframework.zip",
-            checksum: "a4f63eeb476149d58cd117aa7a7667b1b0dce0fa703d1da4973d0b6a32ad939f"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_posixshmem.xcframework.zip",
+            checksum: "b7fe91d6d4ceb01817b30ded6212d1213b04aa591c63a16dd80369062ed6bb0d"
         ), 
         .binaryTarget(
             name: "pythonE-_queue",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_queue.xcframework.zip",
-            checksum: "ca2d4af7456fd04390ed4e52ab1a5aff6f2d91c84a47942bb59da7fda1ba4603"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_queue.xcframework.zip",
+            checksum: "006909d3f1145b311d40f423988c70c45a37d20f41c980545f210310bef99c47"
         ), 
         .binaryTarget(
             name: "pythonE-_sqlite3",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_sqlite3.xcframework.zip",
-            checksum: "8f7b4eff788850be8331bc596c7240f603f42d090a0c8b5e53b42c5bd35a4f3e"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_sqlite3.xcframework.zip",
+            checksum: "7d557a81e6b2e6581e808a1bb2726edfd80cc081b16ec4ffdea050ec6f6bc7f9"
         ), 
         .binaryTarget(
             name: "pythonE-_ssl",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_ssl.xcframework.zip",
-            checksum: "9244bc5e10f62987eeb29f0a812e42b94f74d411b1a5a2801e73409a69fa6fce"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_ssl.xcframework.zip",
+            checksum: "50a5f2e0d6048b1c7f3d4616a3c3b922f571e54bc6c3d10db9f123f23c2e6b90"
         ), 
         .binaryTarget(
             name: "pythonE-_testbuffer",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_testbuffer.xcframework.zip",
-            checksum: "75574146a3427c6ce351f3e6ab8b939d4da60c9d56d68726a04cf73c8e70d50c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_testbuffer.xcframework.zip",
+            checksum: "27434bab2d71f000cd9f4dc249c1e3c699069637f43318009872e4b7bef16b7c"
         ), 
         .binaryTarget(
             name: "pythonE-_testcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_testcapi.xcframework.zip",
-            checksum: "21cbd030ae00ba04d825fa08eff34b65b3e0e5f8213b367e90d0702eb4f81d07"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_testcapi.xcframework.zip",
+            checksum: "bce5ab0ca3d7a2417802f6a2248502d3acd2d5354f8ae116a35c27855eb7627c"
         ), 
         .binaryTarget(
             name: "pythonE-_testimportmultiple",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_testimportmultiple.xcframework.zip",
-            checksum: "248229d20f75578dac2b07b513ed15dde1eb1d1306fa9fb57d6a7a6203cfa326"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_testimportmultiple.xcframework.zip",
+            checksum: "c7ed24f67fce037b07d296c0ded869d6a6a50ad9ba4adb3d601cb9414291eea2"
         ), 
         .binaryTarget(
             name: "pythonE-_testinternalcapi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_testinternalcapi.xcframework.zip",
-            checksum: "e829c0868e4ab59d7c4967b0fa67588427c6adceded44228a11a75a55d8aedb3"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_testinternalcapi.xcframework.zip",
+            checksum: "b1461ee7a711beca9ca250c68f8dc4a25147f50d0f4a280a405b4e617267b9e2"
         ), 
         .binaryTarget(
             name: "pythonE-_testmultiphase",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_testmultiphase.xcframework.zip",
-            checksum: "eb7d83320cce1f99bfcf2eae1f9b0af9ae1d631b5dfa84c7fd41d1d3648bfa98"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_testmultiphase.xcframework.zip",
+            checksum: "7ba609dec84e849a3a1e84321054066d19fd98f04485d825ea80251eccaa8c19"
         ), 
         .binaryTarget(
             name: "pythonE-_uuid",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_uuid.xcframework.zip",
-            checksum: "55edb8869cc96bab38a6d126f67ac70600dd2d598f8b1e9f98f6d1e0bf605002"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_uuid.xcframework.zip",
+            checksum: "68c54d811a995d4e0d23845082eccecc34daa217eed2d5990d38340bc99001cc"
         ), 
         .binaryTarget(
             name: "pythonE-_xxsubinterpreters",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_xxsubinterpreters.xcframework.zip",
-            checksum: "884456614c2e5c9ac5f477bc0696555410b7b7e22adf32978c8d6c15e98467db"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_xxsubinterpreters.xcframework.zip",
+            checksum: "7761d42a46dff2b858da55b5f81310d572701de03ab38a76ca7d444cb61b6ca7"
         ), 
         .binaryTarget(
             name: "pythonE-_xxtestfuzz",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-_xxtestfuzz.xcframework.zip",
-            checksum: "35e37ff7debf6848abe9276c8f13227295ec8f58955ef1f4a9d7dd34927a61cd"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-_xxtestfuzz.xcframework.zip",
+            checksum: "ce6ef14af7587ca17dfe08243c2ad64b9627026fd292ddb97df4414cbeaf6935"
         ), 
         .binaryTarget(
             name: "pythonE-argon2._ffi",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-argon2._ffi.xcframework.zip",
-            checksum: "ce368739237007909b772eac14ccb150da9620fef2ba41b763be43a44ff50bb4"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-argon2._ffi.xcframework.zip",
+            checksum: "4faa64b3f3d106360cc907db29a30f8d72abcc0e39d222c3fa83035c61403632"
         ), 
         .binaryTarget(
             name: "pythonE-kiwisolver",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-kiwisolver.xcframework.zip",
-            checksum: "c5f118d161c084dabcac6c76a0003f45c8ca5bb7bb1016444a90a537d1494e3c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-kiwisolver.xcframework.zip",
+            checksum: "d131bb214dbc0730a224e42a670be2765815756f7a65bb3832b8fd2c0e551148"
         ), 
         .binaryTarget(
             name: "pythonE-lxml_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-lxml_all.xcframework.zip",
-            checksum: "fef2accc84abc844cd151303e48451a9c85369c0c873759c955e92e2d17f00e8"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-lxml_all.xcframework.zip",
+            checksum: "6e772c5a384d712693a9504057e854e6632768ca22f3370442011a456e30dbc0"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib._c_internal_utils",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib._c_internal_utils.xcframework.zip",
-            checksum: "ba21190093cef30c9b270d72e17c85173f3887a12d26eb67a985d2522cf2caa5"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib._c_internal_utils.xcframework.zip",
+            checksum: "f055fb21e3b14346a173631198ade6a2e72c5b7e7f458eeaa467ebfccff4409e"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib._contour",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib._contour.xcframework.zip",
-            checksum: "b0555d1fa6eba991d1e35f8776928f0a8277f8b701e922149ef1a542250e42f6"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib._contour.xcframework.zip",
+            checksum: "cb912cdc353e9c91b98215ad507d63c340b767590b3019c228f66677ad7aa508"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib._image",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib._image.xcframework.zip",
-            checksum: "5ef40c19e3e1dc997fcb21d6b927ae071bc6d9bde3c632902f68a3810619b156"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib._image.xcframework.zip",
+            checksum: "8870a4b3f6dc73c48d39e2c5dd30e4954be9021a9a087fb68852359e2e644e97"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib._path",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib._path.xcframework.zip",
-            checksum: "3f7050412ce13a215b2f9c4ead03fc723c6fb88290395c1419906496422a2d90"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib._path.xcframework.zip",
+            checksum: "fc57e740ed1bc5b3135c4b569e52bf6d4cfbbed6c89e18c801105c08d14736d8"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib._qhull",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib._qhull.xcframework.zip",
-            checksum: "875362ebe7a922a1700fbffaa60083a0ea86b3020d83d5f2b5cfb3c76b603155"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib._qhull.xcframework.zip",
+            checksum: "f5e3ed73dc8d099c03b3f05b4c538b19a0adc85e66862b7269770b139bb3a4ec"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib._tri",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib._tri.xcframework.zip",
-            checksum: "2cf3f9cd440b8f528b287ebebc288b0884790079a066ffbec9236037bbdf697b"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib._tri.xcframework.zip",
+            checksum: "2e6157b7c077a82908342ada0e85ba48b78b1ceb65a4faeb21d7d2ff93f194c5"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib._ttconv",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib._ttconv.xcframework.zip",
-            checksum: "10cd824864d876527a9a61c2a6c2ee2e260027c4a889bac5ea9851a552d3e95d"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib._ttconv.xcframework.zip",
+            checksum: "0c14794d8583ace07465ca41c835a1cffe3f34e623446efb57d5505fdf50036e"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib.backends._backend_agg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib.backends._backend_agg.xcframework.zip",
-            checksum: "308b30a8de38800731e223cc0badc7d8ac9edd286f7576412a16b9be23c6b641"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib.backends._backend_agg.xcframework.zip",
+            checksum: "9a2c1c22289eafbd32246603f523eff744148f29cacbb4b476a0c00182080814"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib.backends._tkagg",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib.backends._tkagg.xcframework.zip",
-            checksum: "47cbe92135476b1fa9a9fc9b4a82527c8ddc74999b14d9afbaeaa06ce2abafb8"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib.backends._tkagg.xcframework.zip",
+            checksum: "76ebc783d56d1c33008437430bf0465164fe75c6e73bd89555e2bf9357f961e9"
         ), 
         .binaryTarget(
             name: "pythonE-matplotlib.ft2font",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-matplotlib.ft2font.xcframework.zip",
-            checksum: "f0cd79f447ed3461d3e6855c9c56e0a1efb2645afcb27449ac3926975685a471"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-matplotlib.ft2font.xcframework.zip",
+            checksum: "d42acd8f7e27c878b491c0c690474b36c719a8c3ff1db4cf6e1f7eb4cd13c039"
         ), 
         .binaryTarget(
             name: "pythonE-numpy_all",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-numpy_all.xcframework.zip",
-            checksum: "ccb7baf5db7d744e92ec4ecb0b5a07f19564ff0c29fcbb81b9678d133436665c"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-numpy_all.xcframework.zip",
+            checksum: "fe7b0e75e99fc9ecd6b6683301824761079fe65e05a8a79ca9a42de61f7228ca"
         ), 
         .binaryTarget(
             name: "pythonE-syslog",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-syslog.xcframework.zip",
-            checksum: "f63062de2272eb42a5c7d914a30841eeaf296ade836c4ac9b432059f420662a7"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-syslog.xcframework.zip",
+            checksum: "2da5f034c9bd1e7bf7e163b0c5dd4631a40e927fe02c11d489782aaaea630ec8"
         ), 
         .binaryTarget(
             name: "pythonE-xxlimited",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE-xxlimited.xcframework.zip",
-            checksum: "5796f2088992f8ab83d18b022bfbcda093ba5f49b8fc9b64a7a99813982e8d63"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE-xxlimited.xcframework.zip",
+            checksum: "a48937d1914d27daa95037c230cf986b2088fed457a77c45c7842d8abb7d2f5e"
         ), 
         .binaryTarget(
             name: "pythonE",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/pythonE.xcframework.zip",
-            checksum: "5c496cb29e3755c5205d2c274826a15c3ebc24dd33232e384516c1737e5255b8"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/pythonE.xcframework.zip",
+            checksum: "45a9b4079272a42ed7e7fc5b92c62539cf6850d9449e67d3a68bd96276ae81ff"
         ), 
         .binaryTarget(
             name: "shell",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/shell.xcframework.zip",
-            checksum: "1d1551adf04cafbc9c1e66feed63ee24924eb581344a31dadc292d87213c1557"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/shell.xcframework.zip",
+            checksum: "d6c0f07f0cc63466db4d3f4af0b2bec1181cbd59043e5f49950affc29740d8a5"
         ), 
         .binaryTarget(
             name: "ssh_cmd",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/ssh_cmd.xcframework.zip",
-            checksum: "81fbcbc0eeb6809c4311c72836a921146f3c3bcb0b9c3df407b75eec31845c45"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/ssh_cmd.xcframework.zip",
+            checksum: "845345f3cd86aa03b6154793edbef28894076ad3e7952d1d427696a6dd85aff4"
         ), 
         .binaryTarget(
             name: "tar",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/tar.xcframework.zip",
-            checksum: "1091a90c15994dd3e2da067d87b4afca7ec3d9519cbb72f67fdde42ddaf957b1"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/tar.xcframework.zip",
+            checksum: "e521f74d2a143dde1e6c08ba5cb5043505630086c4d8d977bada48cb1872037e"
         ), 
         .binaryTarget(
             name: "text",
-            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.41/text.xcframework.zip",
-            checksum: "7cca2038d65264ae4ef8d3f8ca50f801216c1817d49399b8edc15d0f66a64684"
+            url: "https://callisto-xcframeworks.s3.amazonaws.com/ios/0.1.42/text.xcframework.zip",
+            checksum: "dfd85cbb243df708237da50e98b8b47397ccbf63f4253811b0bd1e0d22cbc5da"
         )
         
     ]
