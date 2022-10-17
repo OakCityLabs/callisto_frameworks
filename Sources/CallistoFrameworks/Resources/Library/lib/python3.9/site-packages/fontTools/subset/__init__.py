@@ -2207,6 +2207,14 @@ def subset_glyphs(self, s):
 
 @_add_method(ttLib.getTableClass('CPAL'))
 def prune_post_subset(self, font, options):
+	# Keep whole "CPAL" if "SVG " is present as it may be referenced by the latter
+	# via 'var(--color{palette_entry_index}, ...)' CSS color variables.
+	# For now we just assume this is the case by the mere presence of "SVG " table,
+	# for parsing SVG to collect all the used indices is too much work...
+	# TODO(anthrotype): Do The Right Thing (TM).
+	if "SVG " in font:
+		return True
+
 	colr = font.get("COLR")
 	if not colr:  # drop CPAL if COLR was subsetted to empty
 		return False
@@ -2250,8 +2258,24 @@ def prune_post_subset(self, font, options):
 	self.numPaletteEntries = len(self.palettes[0])
 
 	if self.version == 1:
-		self.paletteEntryLabels = [
-			label for i, label in self.paletteEntryLabels if i in retained_palette_indices
+		kept_labels = []
+		dropped_labels = []
+		for i, label in enumerate(self.paletteEntryLabels):
+			if i in retained_palette_indices:
+				kept_labels.append(label)
+			else:
+				dropped_labels.append(label)
+		self.paletteEntryLabels = kept_labels
+		# Remove dropped labels from the name table.
+		name_table = font["name"]
+		name_table.names = [
+			n for n in name_table.names
+			if (
+				n.nameID not in dropped_labels
+				# Only remove nameIDs in the user range and if they're not explicitly kept
+				or n.nameID < 256
+				or n.nameID in options.name_IDs
+			)
 		]
 	return bool(self.numPaletteEntries)
 
@@ -2545,6 +2569,10 @@ def prune_pre_subset(self, font, options):
 		if stat.table.AxisValueArray:
 			nameIDs.update([val_rec.ValueNameID for val_rec in stat.table.AxisValueArray.AxisValue])
 		nameIDs.update([axis_rec.AxisNameID for axis_rec in stat.table.DesignAxisRecord.Axis])
+	cpal = font.get('CPAL')
+	if cpal and cpal.version == 1:
+		nameIDs.update(cpal.paletteLabels)
+		nameIDs.update(cpal.paletteEntryLabels)
 	if '*' not in options.name_IDs:
 		self.names = [n for n in self.names if n.nameID in nameIDs]
 	if not options.name_legacy:
@@ -2670,6 +2698,7 @@ class Options(object):
 		self.xml = False
 		self.font_number = -1
 		self.pretty_svg = False
+		self.lazy = True
 
 		self.set(**kwargs)
 
@@ -3188,7 +3217,8 @@ def main(args=None):
 		glyphs.append(g)
 
 	dontLoadGlyphNames = not options.glyph_names and not glyphs
-	font = load_font(fontfile, options, dontLoadGlyphNames=dontLoadGlyphNames)
+	lazy = options.lazy
+	font = load_font(fontfile, options, dontLoadGlyphNames=dontLoadGlyphNames, lazy=lazy)
 
 	if outfile is None:
 		outfile = makeOutputFileName(fontfile, overWrite=True, suffix=".subset")

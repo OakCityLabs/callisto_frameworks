@@ -178,7 +178,7 @@ PYTHONFRAMEWORKINSTALLDIR=
 # Deployment target selected during configure, to be checked
 # by distutils. The export statement is needed to ensure that the
 # deployment target is active during build.
-MACOSX_DEPLOYMENT_TARGET=12.5
+MACOSX_DEPLOYMENT_TARGET=12.6
 export MACOSX_DEPLOYMENT_TARGET
 
 # Option to install to strip binaries
